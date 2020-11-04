@@ -1,0 +1,247 @@
+{
+    "frames": {
+        "video-consent_M": {
+            "kind": "exp-lookit-video-consent"
+        
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to contact the Infant Studies Centre at 604-822-6408 or email us at infants@psych.ubc.ca"
+        },
+        "video-consent": {
+            "gdpr": false,
+            "kind": "exp-lookit-video-consent",
+            "PIName": "Dr. Janet F. Werker",
+            "datause": "We are primarily interested in your child's  reactions to the videos and sounds. A research assistant will watch your video after to examine where your child is looking on the screen.",
+            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you and/or a researcher. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). You will receive an e-mail with a link to a $5 gift certificate to Amazon for participating in this study.",
+            "purpose": "In this activity, we are interested in understanding how young infants learn word labels. Are words exclusive to certain people and objects? Or can they be extended to other objects in the world? For example, when they hear 'mommy', will they only look at the photograph of you, or will they look at someone else?",
+            "template": "consent_003",
+            "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
+            "procedures": "First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). During this activity, your child will see photographs of different people and objects, such as hands and feet (including your own!). We are interested in where your child is looking on the screen in response to the sounds that they hear. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant.",
+            "institution": "University of British Columbia",
+            "additional_segments": [
+                {
+                    "text": "At the end of the study, you will be asked to complete a survey about your child's language exposure, early vocabulary development, and ethnic background.",
+                    "title": "Language survey"
+                },
+                {
+                    "text": "Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>.",
+                    "title": "US Patriot Act Disclosure"
+                },
+                {
+                    "text": "If, upon review of your stored video, a researcher were to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities.",
+                    "title": "Child Protection Disclosure"
+                },
+                {
+                    "text": "To comply with guidelines from research funders and journal publications, electronic research data in data sheets from this study may be shared publicly. The shared data sheets will not contain information that can be used to identify you or your child. Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data.",
+                    "title": "Data sharing"
+                }
+            ],
+            "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics Project ID: TODO)."
+        },
+        "video-stim": {
+            "gdpr": false,
+            "kind": "exp-lookit-video-consent",
+            "PIName": "Dr. Janet F. Werker",
+            "datause": "We are primarily interested in your child's  reactions to the videos and sounds. A research assistant will watch your video after to examine where your child is looking on the screen.",
+            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you and/or a researcher. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). You will receive an e-mail with a link to a $5 gift certificate to Amazon for participating in this study.",
+            "purpose": "In this activity, we are interested in understanding how young infants learn word labels. Are words exclusive to certain people and objects? Or can they be extended to other objects in the world? For example, when they hear 'mommy', will they only look at the photograph of you, or will they look at someone else?",
+            "template": "consent_003",
+            "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
+            "procedures": "First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). During this activity, your child will see photographs of different people and objects, such as hands and feet (including your own!). We are interested in where your child is looking on the screen in response to the sounds that they hear. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant.",
+            "institution": "University of British Columbia",
+            "additional_segments": [
+                {
+                    "text": "At the end of the study, you will be asked to complete a survey about your child's language exposure, early vocabulary development, and ethnic background.",
+                    "title": "Language survey"
+                },
+                {
+                    "text": "Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>.",
+                    "title": "US Patriot Act Disclosure"
+                },
+                {
+                    "text": "If, upon review of your stored video, a researcher were to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities.",
+                    "title": "Child Protection Disclosure"
+                },
+                {
+                    "text": "To comply with guidelines from research funders and journal publications, electronic research data in data sheets from this study may be shared publicly. The shared data sheets will not contain information that can be used to identify you or your child. Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data.",
+                    "title": "Data sharing"
+                }
+            ],
+            "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics Project ID: TODO)."
+        },
+        "study-intro": {
+            "blocks": [
+                {
+                    "emph": true,
+                    "text": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
+                    "title": "During this study, your baby will watch videos of talking faces while we record where he or she chooses to look."
+                },
+                {
+                    "text": "You’ll have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions you’ll start the experiment when you and your baby are ready."
+                },
+                {
+                    "text": "The video section will take about 5 minutes."
+                },
+                {
+                    "text": "After the videos, you will answer a few final questions. Then you're all done!"
+                }
+            ],
+            "showPreviousButton": false,
+            "kind": "exp-lookit-text"
+        },
+        "video-preview": {
+            "kind": "exp-lookit-stimuli-preview",
+            "stimuli": [
+                {
+                    "caption": "At the begining of the study, there will be a woman singing in either English, Mandarin, or Cantonese. Follwoing this, there will be several trials where infants will hear repeated speech sounds. Here's an example.",
+                    "video": "attentiongrabber"
+                }
+            ],
+            "baseDir": "https://www.mit.edu/~kimscott/intermodal/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "blocks": [
+                {
+                    "text": "During the videos, we'll ask that you hold your child over your shoulder like this, so that you're facing away from the screen.",
+                    "image": {
+                        "alt": "Father holding child looking over his shoulder",
+                        "src": "INSERT_SRC_URL_HERE"
+                    }
+                },
+                {
+                    "text": "The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
+                },
+                {
+                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them."
+                }
+            ],
+            "skipButtonText": "Skip preview",
+            "previewButtonText": "Preview a video (my child can't see the screen)",
+            "showPreviousButton": true
+        },
+        "final-instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Instructions"
+                },
+                {
+                    "title": "Pausing and stopping",
+                    "listblocks": [
+                        {
+                            "text": "Since there are 15?(TODO) videos in the experiment, we expect that your child may not look at the screen the entire time, so don't worry if your child doesn't do so! Please just try to keep them facing the screen so they can look if they want to."
+                        },
+                        {
+                            "text": "There may be a time during the experiment when you need to pause the study. To pause the study, you can press the space bar. You may do this if your child gets fussy or distracted, or if you need to attend to something else for a moment."
+                        },
+                        {
+                            "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
+                        },
+                        {
+                            "emph": true,
+                            "text": "As a reminder, press 'space bar' to pause the study, and press 'control-X' to end the study early."
+                        }
+                    ]
+                },
+                {
+                    "text": "Please turn the volume up so it's easy to hear but still comfortable.",
+                    "title": "Test your audio",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready? Go!'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "http://www.mit.edu/~kimscott/intermodal/mp3/readygo_HO.mp3",
+                                "type": "audio/mp3"
+                            },
+                            {
+                                "src": "http://www.mit.edu/~kimscott/intermodal/ogg/readygo_HO.ogg",
+                                "type": "audio/ogg"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "nextButtonText": "Finalize your webcam settings"
+        },
+        "video-quality": {
+            "kind": "exp-video-config-quality",
+            "title": "Final webcam setup",
+            "introText": "We'll be analyzing where your child chooses to look during the videos -- but only if we can tell where that is! Please check each of the following to ensure we're able to use your video",
+            "showRecordMenu": true,
+            "requireTestVideo": true,
+            "completedItemText": "Did it!",
+            "instructionBlocks": [
+                {
+                    "text": "<strong>Make sure the webcam you're using is roughly centered</strong> relative to this monitor. This makes it much easier for us to tell whether your child is looking to the left or right!",
+                    "image": {
+                        "alt": "Example images of using centered external webcam on monitor or built-in webcam on laptop.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                    }
+                },
+                {
+                    "text": "<strong>Turn off any other monitors</strong> connected to your computer, besides the one with the centered webcam. (If there's just one monitor, you're all set!)",
+                    "image": {
+                        "alt": "Example images showing laptop screen turned off if using external monitor and webcam, or external monitor turned off if using built-in webcam and laptop screen.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/monitors.png"
+                    }
+                }
+            ],
+            "requireItemConfirmation": true,
+            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. When you're ready to start the experiment, click next. You will have a moment to turn around."
+        },
+        
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "text": "You and your baby are helping us to better understand how the preference for visual/auditory synchrony in speech develops over the first 18 months of life. Babies vary in the amount of time they choose to look at the 'synchronized' speaker compared to the 'unsynchronized' speaker - there's no right or wrong preference! We are interested in how much babies' preferences differ at various ages. If you'd like, you can even participate with your baby again next month!\n\nTo thank you for your participation, we'll be emailing you a $4 Amazon gift card - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. (If you don't hear from us by then, feel free to reach out!) If you participate again with another child in the age range, you'll receive one gift card per child. You will also receive another gift card if you participate again with this child if it has been at least one month since the last time this child participated.",
+                "title": "Thank you for participating in our study!"
+            }
+        }, 
+        "observation": {
+           "kind": "exp-lookit-observation",
+           "blocks": [
+               {
+                   "title": "Time to record mom!",
+                   "listblocks": [
+                       {
+                           "text": "Here you will record a 20 second clip of yourself (infant's mom)."
+                       },
+                       {
+                           "text": "Wait ten seconds"
+                       },
+                       {
+                           "image": {
+                            "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                            }
+                       }
+                       
+                   ]
+               }
+           ],
+           "hideWebcam": true,
+           "hideControls": false,
+           "recordSegmentLength": 10,
+           "startRecordingAutomatically": false,
+           "nextButtonText": "move on",
+           "showPreviousButton": false
+       }
+    },
+    "sequence": [
+        "observation",
+        "video-consent_M",
+        "video-config",
+        "video-stim",
+        "video-consent",
+        "final-instructions",
+        "exit-survey",
+        "study-intro",
+        "video-preview",
+        "video-quality"
+    ]
+}
