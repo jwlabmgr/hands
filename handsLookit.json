@@ -1,9 +1,5 @@
 {
     "frames": {
-        "video-consent_M": {
-            "kind": "exp-lookit-video-consent"
-        
-        },
         "video-config": {
             "kind": "exp-video-config",
             "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to contact the Infant Studies Centre at 604-822-6408 or email us at infants@psych.ubc.ca"
@@ -132,10 +128,10 @@
                     "title": "Pausing and stopping",
                     "listblocks": [
                         {
-                            "text": "Since there are 15?(TODO) videos in the experiment, we expect that your child may not look at the screen the entire time, so don't worry if your child doesn't do so! Please just try to keep them facing the screen so they can look if they want to."
+                            "text": "Describe that they'll record 8 segments (two mom vids, two hand vids, two mommy streams, two hand steams.)"
                         },
                         {
-                            "text": "There may be a time during the experiment when you need to pause the study. To pause the study, you can press the space bar. You may do this if your child gets fussy or distracted, or if you need to attend to something else for a moment."
+                            "text": "There may be a time during the experiment when you need to pause the study. To pause the study, you can press the space bar. You may do this if you need to attend to something else for a moment."
                         },
                         {
                             "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
@@ -203,14 +199,17 @@
                 "title": "Thank you for participating in our study!"
             }
         }, 
-        "observation": {
+        "observation_mom1": {
            "kind": "exp-lookit-observation",
            "blocks": [
                {
-                   "title": "Time to record mom!",
+                   "title": "Here you will record a 30-second clip of yourself!",
                    "listblocks": [
                        {
-                           "text": "Here you will record a 20 second clip of yourself (infant's mom)."
+                           "text": "Here you will record a 30 second clip of yourself (the child's mother)."
+                       },
+                       {
+                           "text": "Silent clip. No smiling, neutral, pasport face. The video will be cropped to only your face and shoulders. Dark solid coloured top, (example black shirt). Solid colored back, like a wall"
                        },
                        {
                            "text": "Wait ten seconds"
@@ -226,22 +225,91 @@
            ],
            "hideWebcam": true,
            "hideControls": false,
-           "recordSegmentLength": 10,
+           "recordSegmentLength": 30,
+           "startRecordingAutomatically": false,
+           "nextButtonText": "move on",
+           "showPreviousButton": false
+       }, 
+       "observation_handVid1": {
+           "kind": "exp-lookit-observation",
+           "blocks": [
+               {
+                   "title": "CHANGE ME PLEASE!",
+                   "listblocks": [
+                       {
+                           "text": "Here you will record a 30 second clip of your child's hand."
+                       },
+                       {
+                           "text": "need the fingers out stretched - not in a fist or tightly curled.   "
+                       },
+                       {
+                           "text": "A good method we have seen in the past is to have the child on the mother's lap, and with one hand hold a piece of paper and the other hold the infant's forearm."
+                       },
+                       {
+                           "text": "We will be taking a clear still frame from this and the image will show the infant's hand and wrist. So please hold your infant's forearm."
+                       },
+                       {
+                           "image": {
+                            "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                            }
+                       }
+                       
+                   ]
+               }
+           ],
+           "hideWebcam": true,
+           "hideControls": false,
+           "recordSegmentLength": 30,
+           "startRecordingAutomatically": false,
+           "nextButtonText": "move on",
+           "showPreviousButton": false
+       }, 
+       "observation_mommyWord1": {
+           "kind": "exp-lookit-observation",
+           "blocks": [
+               {
+                   "title": "Here you will record a 30-second clip of yourself!",
+                   "listblocks": [
+                       {
+                           "text": "Here you will record a 30 second clip of you saying the label."
+                       },
+                       {
+                           "text": "the word used most often for the child's mom and the the one most likely to be recognize by the child, (e.g. \"Mama\", Mommy). Spaced out words with 5 seconds in between each word. 6 words"
+                       },
+                       {
+                           "text": "Like you saw in the example, if you typically use baby speak, please use this tone in these recording"
+                       },
+                       {
+                           "image": {
+                            "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                            }
+                       }
+                       
+                   ]
+               }
+           ],
+           "hideWebcam": true,
+           "hideControls": false,
+           "recordSegmentLength": 30,
            "startRecordingAutomatically": false,
            "nextButtonText": "move on",
            "showPreviousButton": false
        }
     },
     "sequence": [
-        "observation",
-        "video-consent_M",
-        "video-config",
-        "video-stim",
+        
         "video-consent",
         "final-instructions",
+        "observation_mommyWord1",
+        "observation_mom1",
+        
+        
+        "video-config",
+        "video-stim",
         "exit-survey",
         "study-intro",
         "video-preview",
         "video-quality"
+    
     ]
 }
