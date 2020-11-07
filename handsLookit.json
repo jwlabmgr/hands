@@ -9,11 +9,11 @@
             "kind": "exp-lookit-video-consent",
             "PIName": "Dr. Janet F. Werker",
             "datause": "We are primarily interested in your child's  reactions to the videos and sounds. A research assistant will watch your video after to examine where your child is looking on the screen.",
-            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you and/or a researcher. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). You will receive an e-mail with a link to a $5 gift certificate to Amazon for participating in this study.",
-            "purpose": "In this activity, we are interested in understanding how young infants learn word labels. Are words exclusive to certain people and objects? Or can they be extended to other objects in the world? For example, when they hear 'mommy', will they only look at the photograph of you, or will they look at someone else?",
+            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you and/or a researcher. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). You will receive an e-mail with a link to a $10 USD gift certificate to Amazon for fully participating in this study.",
+            "purpose": "In this activity, we are interested in understanding how young infants learn word labels. Are words exclusive to certain people and objects? Or can they be extended to other objects in the world? For example, when they hear 'mommy', will they only look at the photograph of you, or will they look at someone else?"
             "template": "consent_003",
             "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
-            "procedures": "First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). During this activity, your child will see photographs of different people and objects, such as hands and feet (including your own!). We are interested in where your child is looking on the screen in response to the sounds that they hear. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant.",
+            "procedures": "First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). During this activity, your child will see videos of different people and objects, such as hands and feet (including your own video and audio that you will record soon!). We are interested in where your child is looking on the screen in response to the sounds that they hear. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant.",
             "institution": "University of British Columbia",
             "additional_segments": [
                 {
@@ -71,7 +71,7 @@
                 {
                     "emph": true,
                     "text": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
-                    "title": "During this study, your baby will watch videos of talking faces while we record where he or she chooses to look."
+                    "title": "During this study, your baby will watch videos of faces and hands while we record where he or she chooses to look."
                 },
                 {
                     "text": "You’ll have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions you’ll start the experiment when you and your baby are ready."
@@ -128,7 +128,7 @@
                     "title": "Pausing and stopping",
                     "listblocks": [
                         {
-                            "text": "Describe that they'll record 8 segments (two mom vids, two hand vids, two mommy streams, two hand steams.)"
+                            "text": "In the following portion, you will be asked to record a few videos and an audio clips so that we can incorporate it into a personalized version for your child to see in the second part of this study. You will go through instructions to record an audio stream of yourself saying the label of \"hand\" and \"mom\" that your child is most likely to recognize, and videos of yourself and your child's hand. We will ask for 2 recordings of each video and audio clip."
                         },
                         {
                             "text": "There may be a time during the experiment when you need to pause the study. To pause the study, you can press the space bar. You may do this if you need to attend to something else for a moment."
@@ -206,13 +206,13 @@
                    "title": "Here you will record a 30-second clip of yourself!",
                    "listblocks": [
                        {
-                           "text": "Here you will record a 30 second clip of yourself (the child's mother)."
+                           "text": "Here you will record a 30-second clip of yourself (the child's mother)."
                        },
                        {
-                           "text": "Silent clip. No smiling, neutral, pasport face. The video will be cropped to only your face and shoulders. Dark solid coloured top, (example black shirt). Solid colored back, like a wall"
+                           "text": "This will be a silent clip. We ask that, similar to taking a passport or driving liscense photo, that you don't smile and have a neutral expression. The video will be cropped to only your face and shoulders. We also ask that you wear a dark, solid coloured top, such as a black or dark grey shirt. The background should be a solid colour, such as a wall."
                        },
                        {
-                           "text": "Wait ten seconds"
+                           "text": "We will be taking certain clips from this video recording and incorporate it in the study."
                        },
                        {
                            "image": {
@@ -234,19 +234,19 @@
            "kind": "exp-lookit-observation",
            "blocks": [
                {
-                   "title": "CHANGE ME PLEASE!",
+                   "title": "Here you will record a 30-second clip of your child's hand!",
                    "listblocks": [
                        {
                            "text": "Here you will record a 30 second clip of your child's hand."
                        },
                        {
-                           "text": "need the fingers out stretched - not in a fist or tightly curled.   "
+                           "text": "The most important thing is that the fingers need to be out stretched - their hand can't be in a closed fist or tightly curled."
                        },
                        {
                            "text": "A good method we have seen in the past is to have the child on the mother's lap, and with one hand hold a piece of paper and the other hold the infant's forearm."
                        },
                        {
-                           "text": "We will be taking a clear still frame from this and the image will show the infant's hand and wrist. So please hold your infant's forearm."
+                           "text": "We will be taking a clear still-frame from this and the image in the study will show the infant's hand and wrist. So please hold your infant's forearm."
                        },
                        {
                            "image": {
@@ -268,16 +268,15 @@
            "kind": "exp-lookit-observation",
            "blocks": [
                {
-                   "title": "Here you will record a 30-second clip of yourself!",
+                   "title": "Here you will record an audio clip of \"mom\"!",
                    "listblocks": [
                        {
-                           "text": "Here you will record a 30 second clip of you saying the label."
+                           "text": "Here you will record a clip of you saying the label for mom. We ask that you say the word clearly 6 times, with a 3-5 second pause between each word."
                        },
                        {
-                           "text": "the word used most often for the child's mom and the the one most likely to be recognize by the child, (e.g. \"Mama\", Mommy). Spaced out words with 5 seconds in between each word. 6 words"
-                       },
+                           "text": "This will be the word used most often for the child's mom and the one most likely to be recognize by the child, (e.g. \"Mama\", \"Mommy\"). This doesn't necessary have to be in English if that is not what your child hears!"
                        {
-                           "text": "Like you saw in the example, if you typically use baby speak, please use this tone in these recording"
+                           "text": "As seen in the example, if you typically use baby speak, please use that tone in these recordings."
                        },
                        {
                            "image": {
