@@ -8,7 +8,7 @@
             "gdpr": false,
             "kind": "exp-lookit-video-consent",
             "PIName": "Dr. Janet F. Werker",
-            "datause": "We are primarily interested in your child's  reactions to the videos and sounds. A research assistant will watch your video after to examine where your child is looking on the screen.",
+            "datause": "We are primarily interested in your child's reactions to the videos and sounds. A research assistant will watch your video after to examine where your child is looking on the screen.",
             "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you and/or a researcher. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). You will receive an e-mail with a link to a $10 gift certificate to Amazon for participating in this study.",
             "purpose": "In this activity, we are interested in understanding how young infants learn word labels. Are words exclusive to certain people and objects? Or can they be extended to other objects in the world? For example, when they hear 'mommy', will they only look at the photograph of you, or will they look at someone else?",
             "template": "consent_003",
@@ -39,23 +39,23 @@
             "blocks": [
                 {
                     "emph": true,
-                    "text": "Welcome! This is part 1 of a 2 part study!",
-                    "title": "Important: your child does not need to be with you for this first part. First, let's go over what will happen!."
+                    "text": "Welcome! This is part 1 of a 2-part study!",
+                    "title": "Important: your child does not need to be with you for the entire duration of this set-up portion. However, we will need them to be present for a short portion later. Let's go over what will happen!."
                 },
                 {
-                    "text": "In part 1 of this study, we will collect videos from you that will be used in part 2."
+                    "text": "In this session, we will collect videos and audio clips from you to be used as part of your personalized study in part 2."
                 },
                 {
-                    "text": "We are interested in how young children learn words for individuals and learn words for categories. In this study, we will be measuring your child's understanding of the label for you (e.g. \"Mommy\") and the word for hand. To do this, we will first be taking a video of you (your baby's mom), a video of your infant's hand and a recording of you saying names to accomany each of these videos. " 
+                    "text": "We are interested in how young children learn words for individuals and categories. In this study, we will be measuring your child's understanding of the label for you (e.g. \"Mommy\"), and the word for something more general, like \"hand\". To do this, we will ask for you to record a video of you (your baby's mom), a video of your infant's hand, and audio recordings of you saying words to accompany each of these videos. " 
                 },
                 {
-                    "text": "After recording these videos, you will answer a few final questions. Then within 7 days of completing part 1, you will receive an email inviting you and your baby to part 2 of the study."
+                    "text": "After recording these videos, you will answer a few final questions. Within 7 days of completing part 1, you will receive an email inviting you and your baby to part 2 of the study!"
                 },
                 {
-                    "text": "In a few minutes, you’ll have a chance to preview a silent version of part 2 with closed captioning of the experiment ahead of time. After reading the instructions you’ll start the experiment when you and your baby are ready."
+                    "text": "In a moment, you can preview a silent example of part 2 of the study to see what it would potentially look like. After reading the instructions, you will start the experiment when you and your baby are ready."
                 },
                 {
-                    "text": "Part 1 of the study will take about 20 minutes and part 2 will take about 5 minutes. After completing both parts of the study you will receive a $10 amazon gift card."
+                    "text": "Part 1 of the study will take about 20 minutes, while part 2 will take about 5 minutes to complete. Upon finishing both parts of the study you will receive a $10 Amazon gift card."
                 }
             ],
             "showPreviousButton": false,
@@ -65,7 +65,7 @@
             "kind": "exp-lookit-stimuli-preview",
             "stimuli": [
                 {
-                    "caption": "There are two blocks in this study, one were we assess your child's understanding of the label for their mom and one where we assess their understanding of the word \"Hand\". In the mom block, your child will see a video of you paired with either a dog or another woman while hearing the label for you. In the hand block, your child will view their own hand paired with another infant's hand or with a foot while hearing the word \"hand\". These two blocks will appear in random order. Here's an example.",
+                    "caption": "There are two blocks in this study, one were we assess your child's understanding of the label for their mom and one where we assess their understanding of the word \"Hand\". In the \"mom\" block, your child will see a video of you paired with either a dog or another woman while hearing the label for you. In the \"hand\" block, your child will view their own hand paired with another infant's hand or with a foot while hearing the word \"hand\". These two blocks will appear in random order. Here's an example.",
                     "video": "attentiongrabber"
                 }
             ],
@@ -76,7 +76,7 @@
             ],
             "blocks": [
                 {
-                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them. The mom and hand shown here are only examples in your study, your infant will see a video of you (your baby's mom) and their own hand."
+                    "text": "If you'd like to see an example of a video similar to the one your child will be shown in part 2, you can take a look ahead of time now. It's important that you watch this video without your child, so that the videos will still be new to them later. The mom and hand shown here are only examples in your study, your infant will see a video of you (your baby's mom) and their own hand."
                 }
             ],
             "skipButtonText": "Skip preview",
@@ -256,8 +256,34 @@
             "startRecordingAutomatically": false,
             "nextButtonText": "move on",
             "showPreviousButton": false
+        },
+        "observation_handWord1": {
+            "kind": "exp-lookit-observation",
+            "blocks": [
+                {
+                    "title": "Here you will record an audio clip of \"hand\"!",
+                    "listblocks": [
+                        {
+                           "text": "Here you will record a clip of you saying \"hand\". We ask that you say the word clearly 6 times, with a 3-5 second pause between each word."
+                       },
+                        {
+                           "text": "As seen in the example, if you typically use baby speak, please use that tone in these recordings."
+                       },
+                        {
+                            "image": {
+                                "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "hideWebcam": true,
+            "hideControls": false,
+            "recordSegmentLength": 30,
+            "startRecordingAutomatically": false,
+            "nextButtonText": "move on",
+            "showPreviousButton": false
         }
-        
     },
     "sequence": [
         "study-intro",
@@ -268,6 +294,7 @@
         "observation_mom1",
         "observation_mommyWord1",
         "observation_handVid1",
+        "observation_handWord1",
         "exit-survey"
     ]
 }
