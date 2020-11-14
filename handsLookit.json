@@ -90,20 +90,16 @@
                     "title": "Instructions"
                 },
                 {
-                    "title": "Pausing and stopping",
+                    "title": "Video recording guide:",
                     "listblocks": [
                         {
                             "text": "In the following portion, you will be asked to record a few videos and an audio clips so that we can incorporate it into a personalized version for your child to see in the second part of this study. You will go through instructions to record an audio stream of yourself saying the label of \"hand\" and \"mom\" that your child is most likely to recognize, and videos of yourself and your child's hand. We will ask for 2 recordings of each video and audio clip."
                         },
                         {
-                            "text": "There may be a time during the experiment when you need to pause the study. To pause the study, you can press the space bar. You may do this if you need to attend to something else for a moment."
+                            "text": "Feel free to re-record yourself at each stage if you are not happy with the clip. We will be taking the middle segment of the recordings so please don't worry if the beginning or end show you moving to start or stop the recording."
                         },
                         {
                             "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
-                        },
-                        {
-                            "emph": true,
-                            "text": "As a reminder, press 'space bar' to pause the study, and press 'control-X' to end the study early."
                         }
                     ]
                 },
@@ -163,7 +159,7 @@
                 "title": "Thank you for participating in our study!"
             }
         },
-        "observation_mom1": {
+        "observation-mom1": {
             "kind": "exp-lookit-observation",
             "blocks": [
                 {
@@ -194,7 +190,7 @@
             "showPreviousButton": false, 
             "recordingRequired": true
         },
-        "observation_handVid1": {
+        "observation-handVid1": {
             "kind": "exp-lookit-observation",
             "blocks": [
                 {
@@ -220,14 +216,15 @@
                     ]
                 }
             ],
-            "hideWebcam": true,
+            "hideWebcam": false,
             "hideControls": false,
             "recordSegmentLength": 30,
             "startRecordingAutomatically": false,
             "nextButtonText": "move on",
-            "showPreviousButton": false
+            "showPreviousButton": false, 
+            "recordingRequired": true
         },
-        "observation_mommyWord1": {
+        "observation-mommyWord1": {
             "kind": "exp-lookit-observation",
             "blocks": [
                 {
@@ -250,14 +247,15 @@
                     ]
                 }
             ],
-            "hideWebcam": true,
+            "hideWebcam": false,
             "hideControls": false,
             "recordSegmentLength": 30,
             "startRecordingAutomatically": false,
             "nextButtonText": "move on",
-            "showPreviousButton": false
+            "showPreviousButton": false, 
+            "recordingRequired": true
         },
-        "observation_handWord1": {
+        "observation-handWord1": {
             "kind": "exp-lookit-observation",
             "blocks": [
                 {
@@ -291,10 +289,10 @@
         "video-consent",
         "video-preview",
         "final-instructions",
-        "observation_mom1",
-        "observation_mommyWord1",
-        "observation_handVid1",
-        "observation_handWord1",
+        "observation-mom1",
+        "observation-mommyWord1",
+        "observation-handVid1",
+        "observation-handWord1",
         "exit-survey"
     ]
 }
