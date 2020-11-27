@@ -142,7 +142,6 @@
             "requireItemConfirmation": true,
             "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. When you're ready to start the experiment, click next. You will have a moment to turn around."
         },
-
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
@@ -317,7 +316,7 @@
                     }
                 ]
             }],
-            "hideWebcam": true,
+            "hideWebcam": false,
             "hideControls": false,
             "recordSegmentLength": 30,
             "startRecordingAutomatically": false,
