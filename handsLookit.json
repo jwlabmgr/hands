@@ -115,7 +115,7 @@
                     }
                 }
             ],
-            "nextButtonText": "Finalize your webcam settings"
+            "nextButtonText": "Next"
         },
         "video-quality": {
             "kind": "exp-video-config-quality",
@@ -142,32 +142,42 @@
             "requireItemConfirmation": true,
             "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. When you're ready to start the experiment, click next. You will have a moment to turn around."
         },
+
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
-            "debriefing": [{
-                "text": "You and your baby are helping us to better understand how children are connecting sounds in the world to words. The next step is to fill out a background questionnaire asking you more in-depth questions about your child's language and environment. Once you have completed the survey, you may then close this window. You will be contacted within the next few days with your link to Part 2!"
-            },
-            {
-                 "text": "Please complete this questionnaire: (<a href=’https://ubc.ca1.qualtrics.com/jfe/form/SV_3W5UtFds33DpxyJ’ rel=’noopener’ target=’_blank’>Link text</a>)."
+            "debriefing": {
+                
+                    "text": "If you have completed survey, then you are all done part 1 of our study! \n\n  You and your baby are helping us to better understand how children are connecting sounds in the world to words. Once you have completed the questionnaire, you may then close this window. You will be contacted within the next few days with your link to Part 2! \n\n  To thank you for your participation, after completing part 2, we will be emailing you a $10 Amazon gift card. If you don't hear from us within a week of completing part 1, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child.",
+                    "title": "Thank you for participating in our study!"
             }
-            ],
-                "title": "Thank you for participating in our study!"
-        },
+            },
         "eligibility-survey": {
             "kind": "exp-lookit-survey",
             "formSchema": {
                 "schema": {
                     "type": "object",
-                    "title": "Language Exposure Survey",
+                    "title": "Information for Language and Background Questionnaire",
                     "properties": {
-                        }, 
+                        
                         "email":{
                             "type": "string",
-                            "title": "To end this study, we have a detailed quesitonnaire which is linked to Lookit through your email. Please enter your email address here: ",
+                            "title": "At the end of the study, we have a detailed quesitonnaire which is linked to Lookit through your email. Please enter your email address here: ",
                             "required": true
                         }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "langChoice": {
+                            "type": "radio",
+                            "message": "Please answer this question.",
+                            "validator": "required-field"
+                        }
+                    }
                 }
-            }
+            },
+            "nextButtonText": "Continue",
+            "showPreviousButton": false
         },
         "instructions_mom1": {
             "kind": "exp-lookit-instructions",
@@ -203,130 +213,154 @@
                 }
             ]
         },
-    "observation-mom1": {
-        "kind": "exp-lookit-observation",
-        "blocks": [{
-            "title": "Here you will record a 30-second clip of yourself!",
-            "listblocks": [{
-                    "text": "Here you will record a 30-second clip of yourself (the child's mother)."
-                },
-                {
-                    "text": "This will be a silent clip. We ask that, similar to taking a passport or driving liscense photo, that you don't smile and have a neutral expression. The video will be cropped to only your face and shoulders. We also ask that you wear a dark, solid coloured top, such as a black or dark grey shirt. The background should be a solid colour, such as a wall."
-                },
-                {
-                    "text": "We will be taking certain clips from this video recording and incorporate it in the study."
-                },
-                {
-                    "image": {
-                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+        "observation-mom1": {
+            "kind": "exp-lookit-observation",
+            "blocks": [{
+                "title": "Here you will record a 30-second clip of yourself!",
+                "listblocks": [{
+                        "text": "Here you will record a 30-second clip of yourself (the child's mother)."
+                    },
+                    {
+                        "text": "This will be a silent clip. We ask that, similar to taking a passport or driving liscense photo, that you don't smile and have a neutral expression. The video will be cropped to only your face and shoulders. We also ask that you wear a dark, solid coloured top, such as a black or dark grey shirt. The background should be a solid colour, such as a wall."
+                    },
+                    {
+                        "text": "We will be taking certain clips from this video recording and incorporate it in the study."
+                    },
+                    {
+                        "image": {
+                            "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                        }
                     }
-                }
-            ]
-        }],
-        "hideWebcam": false,
-        "hideControls": false,
-        "recordSegmentLength": 30,
-        "startRecordingAutomatically": false,
-        "nextButtonText": "move on",
-        "showPreviousButton": false,
-        "recordingRequired": true
-    },
-    "observation-handVid1": {
-        "kind": "exp-lookit-observation",
-        "blocks": [{
-            "title": "Here you will record a 30-second clip of your child's hand!",
-            "listblocks": [{
-                    "text": "Here you will record a 30 second clip of your child's hand."
-                },
-                {
-                    "text": "The most important thing is that the fingers need to be out stretched - their hand can't be in a closed fist or tightly curled."
-                },
-                {
-                    "text": "A good method we have seen in the past is to have the child on the mother's lap, and with one hand hold a piece of paper and the other hold the infant's forearm."
-                },
-                {
-                    "text": "We will be taking a clear still-frame from this and the image in the study will show the infant's hand and wrist. So please hold your infant's forearm."
-                },
-                {
-                    "image": {
-                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                ]
+            }],
+            "hideWebcam": false,
+            "hideControls": false,
+            "recordSegmentLength": 30,
+            "startRecordingAutomatically": false,
+            "nextButtonText": "move on",
+            "showPreviousButton": false,
+            "recordingRequired": true
+        },
+        "observation-handVid1": {
+            "kind": "exp-lookit-observation",
+            "blocks": [{
+                "title": "Here you will record a 30-second clip of your child's hand!",
+                "listblocks": [{
+                        "text": "Here you will record a 30 second clip of your child's hand."
+                    },
+                    {
+                        "text": "The most important thing is that the fingers need to be out stretched - their hand can't be in a closed fist or tightly curled."
+                    },
+                    {
+                        "text": "A good method we have seen in the past is to have the child on the mother's lap, and with one hand hold a piece of paper and the other hold the infant's forearm."
+                    },
+                    {
+                        "text": "We will be taking a clear still-frame from this and the image in the study will show the infant's hand and wrist. So please hold your infant's forearm."
+                    },
+                    {
+                        "image": {
+                            "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                        }
                     }
-                }
-            ]
-        }],
-        "hideWebcam": false,
-        "hideControls": false,
-        "recordSegmentLength": 30,
-        "startRecordingAutomatically": false,
-        "nextButtonText": "move on",
-        "showPreviousButton": false,
-        "recordingRequired": true
-    },
-    "observation-mommyWord1": {
-        "kind": "exp-lookit-observation",
-        "blocks": [{
-            "title": "Here you will record an audio clip of \"mom\"!",
-            "listblocks": [{
-                    "text": "Here you will record a clip of you saying the label for mom. We ask that you say the word clearly 6 times, with a 3-5 second pause between each word."
-                },
-                {
-                    "text": "This will be the word used most often for the child's mom and the one most likely to be recognize by the child, (e.g. \"Mama\", \"Mommy\"). This doesn't necessary have to be in English if that is not what your child hears!"
-                },
-                {
-                    "text": "As seen in the example, if you typically use baby speak, please use that tone in these recordings."
-                },
-                {
-                    "image": {
-                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                ]
+            }],
+            "hideWebcam": false,
+            "hideControls": false,
+            "recordSegmentLength": 30,
+            "startRecordingAutomatically": false,
+            "nextButtonText": "move on",
+            "showPreviousButton": false,
+            "recordingRequired": true
+        },
+        "observation-mommyWord1": {
+            "kind": "exp-lookit-observation",
+            "blocks": [{
+                "title": "Here you will record an audio clip of \"mom\"!",
+                "listblocks": [{
+                        "text": "Here you will record a clip of you saying the label for mom. We ask that you say the word clearly 6 times, with a 3-5 second pause between each word."
+                    },
+                    {
+                        "text": "This will be the word used most often for the child's mom and the one most likely to be recognize by the child, (e.g. \"Mama\", \"Mommy\"). This doesn't necessary have to be in English if that is not what your child hears!"
+                    },
+                    {
+                        "text": "As seen in the example, if you typically use baby speak, please use that tone in these recordings."
+                    },
+                    {
+                        "image": {
+                            "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                        }
                     }
-                }
-            ]
-        }],
-        "hideWebcam": false,
-        "hideControls": false,
-        "recordSegmentLength": 30,
-        "startRecordingAutomatically": false,
-        "nextButtonText": "move on",
-        "showPreviousButton": false,
-        "recordingRequired": true
-    },
-    "observation-handWord1": {
-        "kind": "exp-lookit-observation",
-        "blocks": [{
-            "title": "Here you will record an audio clip of \"hand\"!",
-            "listblocks": [{
-                    "text": "Here you will record a clip of you saying \"hand\". We ask that you say the word clearly 6 times, with a 3-5 second pause between each word."
-                },
-                {
-                    "text": "As seen in the example, if you typically use baby speak, please use that tone in these recordings."
-                },
-                {
-                    "image": {
-                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                ]
+            }],
+            "hideWebcam": false,
+            "hideControls": false,
+            "recordSegmentLength": 30,
+            "startRecordingAutomatically": false,
+            "nextButtonText": "move on",
+            "showPreviousButton": false,
+            "recordingRequired": true
+        },
+        "observation-handWord1": {
+            "kind": "exp-lookit-observation",
+            "blocks": [{
+                "title": "Here you will record an audio clip of \"hand\"!",
+                "listblocks": [{
+                        "text": "Here you will record a clip of you saying \"hand\". We ask that you say the word clearly 6 times, with a 3-5 second pause between each word."
+                    },
+                    {
+                        "text": "As seen in the example, if you typically use baby speak, please use that tone in these recordings."
+                    },
+                    {
+                        "image": {
+                            "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                        }
                     }
+                ]
+            }],
+            "hideWebcam": true,
+            "hideControls": false,
+            "recordSegmentLength": 30,
+            "startRecordingAutomatically": false,
+            "nextButtonText": "move on",
+            "showPreviousButton": false
+        }, 
+        "qualt-link": {
+            "blocks": [{
+                    "emph": true,
+                    "title": "For this final portion, your child does not need to be with you!"
+                },
+                {
+                    "text": "The last part of this study is a questionnaire which will ask you about your child's language and music environment.Please click the link below to complete the questionniare and then return to Lookit."
+                },
+                {
+                    "text": "(<a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionniare</a>.)"
+                }, 
+                {
+                    "text": ""
+                },
+                {
+                    "emph": true,
+                    "text": "Please do not close this window. Once you are done the survey, click Next."
                 }
-            ]
-        }],
-        "hideWebcam": true,
-        "hideControls": false,
-        "recordSegmentLength": 30,
-        "startRecordingAutomatically": false,
-        "nextButtonText": "move on",
-        "showPreviousButton": false
-    }
+            ],
+            "showPreviousButton": false,
+            "kind": "exp-lookit-text"
+        }
 },
 "sequence": [
-    "eligibility-survey",
-    "exit-survey",
-    "instructions_mom1",
+    
     "study-intro",
     "video-config",
     "video-consent",
+    "eligibility-survey",
     "video-preview",
     "final-instructions",
+    "instructions_mom1",
     "observation-mom1",
     "observation-mommyWord1",
     "observation-handVid1",
-    "observation-handWord1"
+    "observation-handWord1",
+    "qualt-link",
+    "exit-survey"
 ]
 }
