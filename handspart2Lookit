@@ -1,0 +1,1783 @@
+{
+    "frames": {
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to contact the Infant Studies Centre at 604-822-6408 or email us at infants@psych.ubc.ca"
+        },
+        "video-consent": {
+            "gdpr": false,
+            "kind": "exp-lookit-video-consent",
+            "PIName": "Dr. Janet F. Werker",
+            "datause": "We are primarily interested in your child's  reactions to the videos and sounds. A research assistant will watch your video to examine where your child is looking on the screen.",
+            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). Within 5 business days of completing the study, we will send you a $5 electronic gift card to Amazon to thank you for participating; we will use the e-mail address you provide at the end of the study. ",
+            "purpose": "In this activity, we are interested in understanding whether hearing a cultural tune, either in a language your baby knows or is unfamiliar with, would affect their ability to differentiate between language-specific speech sounds.",
+            "template": "consent_003",
+            "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
+            "procedures": "This study takes about 15 minutes to complete. First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). In the first half of the study, your child will see and/or hear different speakers either singing or speaking. In the second half of the study, speech sounds will be repeated for a few minutes, and we are interested in your child’s looking behaviour to the screen in response to what they hear. It’s okay if your child sometimes looks away from the screen, there is no need to redirect their attention. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant. After the study, you will be asked to complete a questionnaire about your child's language exposure, early vocabulary development, and familiarity with music. This questionnaire is hosted on the Qualtrics platform by the University of British Columbia. If you consent to participate today, we would like to follow-up with you when your baby is older (at 18 and 24 months) to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance. ",
+            "institution": "University of British Columbia",
+            "additional_segments": [{
+                    "text": "To comply with guidelines from research funders and journal publications, data from this study may be made “open access”, that is, shared publicly. The shared data will not contain information that can be used to identify you or your child. The data we collect is typically made open access via online repositories like the Open Science Framework (https://osf.io). Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data. ",
+                    "title": "Open access"
+                },
+                {
+                    "text": "Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>. Child Protection Disclosure If, upon review of your stored video, a researcher were to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities. Data sharing To comply with guidelines from research funders and journal publications, electronic research data in data sheets from this study may be shared publicly. The shared data sheets will not contain information that can be used to identify you or your child. Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data.",
+                    "title": "US Patriot Act Disclosure"
+                },
+                {
+                    "text": "If, upon review of your stored video, a researcher was to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities. ",
+                    "title": "Child Protection Disclosure"
+                }
+            ],
+            "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics Project ID: H20-03037)."
+        },
+        "study-intro": {
+            "blocks": [{
+                    "emph": true,
+                    "title": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
+                    "text": "To be eligible for this study, your child must be regularly hearing 90-100% English OR hearing at least 30% English AND at least 20% Cantonese or Mandarin."
+                },
+                {
+                    "text": "During this study, your baby will first watch videos of singing faces. Then, there will be a series of speech sounds accompanied by rainbow dots and we will record where he or she chooses to look."
+                },
+                {
+                    "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. After reading the instructions, you will start the experiment when you and your baby are ready."
+                },
+                {
+                    "text": "The video section will take about 5 minutes."
+                },
+                {
+                    "text": "After the videos, you will answer a few final questions. Then you're all done!"
+                }
+            ],
+            "showPreviousButton": false,
+            "kind": "exp-lookit-text"
+        },
+        "video-preview": {
+            "kind": "exp-lookit-stimuli-preview",
+            "stimuli": [{
+                "caption": "At the begining of the study, there will be a woman singing in either English, Mandarin, or Cantonese. Following this, there will be several trials where infants will hear repeated speech sounds. Here's an example.",
+                "video": "preview"
+            }],
+            "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "blocks": [{
+                    "text": "During the videos, we'll ask that you hold your child over your shoulder like this, so that you're facing away from the screen.",
+                    "image": {
+                        "alt": "Father holding child looking over his shoulder",
+                        "src": "https://www.mit.edu/~kimscott/intermodal/img/over_shoulder.jpg"
+                    }
+                },
+                {
+                    "text": "The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
+                },
+                {
+                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them."
+                }
+            ],
+            "skipButtonText": "Skip preview",
+            "previewButtonText": "Preview a video (my child can't see the screen)",
+            "showPreviousButton": false
+        },
+        "final-instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [{
+                    "title": "Instructions"
+                },
+                {
+                    "title": "Pausing and stopping",
+                    "listblocks": [{
+                            "text": "In the experiment, there is a longer familiarization period where the same language sound will be repeated. This is meant to bore your child and we expect that they may not look at the screen the entire time, so don't worry if your child doesn't do so! We are more interested in what they are hearing than what they are seeing, so please just try to keep them facing the screen and they can look if they want to. If your child gets fussy or you must attend to something else, you may pause the study by pressing the space bar."
+                        },
+                        {
+                            "emph": true,
+                            "text": "Please only pause the study if your child is fussy, and not if they simply aren't looking"
+                        },
+                        {
+                            "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
+                        },
+                        {
+                            "emph": true,
+                            "text": "As a reminder, press 'space bar' to pause the study, and press 'control-X' to end the study early."
+                        }
+                    ]
+                },
+                {
+                    "text": "Please turn the volume up so it's easy to hear but still comfortable.",
+                    "title": "Test your audio",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready? Go!'",
+                        "isVideo": false,
+                        "sources": [{
+                                "src": "http://www.mit.edu/~kimscott/intermodal/mp3/readygo_HO.mp3",
+                                "type": "audio/mp3"
+                            },
+                            {
+                                "src": "http://www.mit.edu/~kimscott/intermodal/ogg/readygo_HO.ogg",
+                                "type": "audio/ogg"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "nextButtonText": "Finalize your webcam settings",
+            "showPreviousButton": false
+        },
+        "video-quality": {
+            "kind": "exp-video-config-quality",
+            "title": "Final webcam setup",
+            "introText": "We'll be analyzing where your child chooses to look during the videos -- but only if we can tell where that is! Please check each of the following to ensure we're able to use your video",
+            "showRecordMenu": true,
+            "requireTestVideo": true,
+            "completedItemText": "Did it!",
+            "instructionBlocks": [{
+                    "text": "<strong>Make sure the webcam you're using is roughly centered</strong> relative to this monitor. This makes it much easier for us to tell whether your child is looking to the left or right!",
+                    "image": {
+                        "alt": "Example images of using centered external webcam on monitor or built-in webcam on laptop.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                    }
+                },
+                {
+                    "text": "<strong>Turn off any other monitors</strong> connected to your computer, besides the one with the centered webcam. (If there's just one monitor, you're all set!)",
+                    "image": {
+                        "alt": "Example images showing laptop screen turned off if using external monitor and webcam, or external monitor turned off if using built-in webcam and laptop screen.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/monitors.png"
+                    }
+                }
+            ],
+            "requireItemConfirmation": true,
+            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. When you're ready to start the experiment, click next. You will have a moment to turn around."
+        },
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                
+                    "text": "If you have completed survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are distinguishing between different languages. Previous research suggests that babies use cues in their cultural environment to “activate” a certain language, and we are interested in whether the cultural cue of music would have an effect on such ability. We really appreciate your help with this investigation!\n\n  To thank you for your participation, we will be emailing you a $5 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their langauge development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+                    "title": "Thank you for participating in our study!"
+            }
+            },
+        "exit-survey_cond": {
+            "kind": "exp-lookit-exit-survey",
+            "generateProperties": "function(expData, sequence, child, pastSessions) {var eligible = expData['1-study-procedure']['generatedProperties']['ELIGIBLE']; if (eligible) { return { 'debriefing': {                 'text': 'In this study, we were looking at why babies love cats. Your child actually participated. A real debriefing would be more detailed.', 'title': 'Thank you!' } }; } else { return { 'debriefing': {                 'text': 'In this study, we would have looked at why your child loved cats. Your child did not actually participate though. A real debriefing would make more sense.', 'title': 'Thank you!' } }; }}"
+        },
+        "study-desc": {
+            "blocks": [{
+                    "emph": true,
+                    "title": "Language exposure",
+                    "text": "This study has multiple conditions for suitible for children of various language backgrounds."
+                },
+                {
+                    "text": "The current study is designed for children who are either only hearing English or children who are hearing a combination of English, Cantonese or Mandarin. The next page will present you with an option to select your child's langauge background."
+                }
+            ],
+            "showPreviousButton": false,
+            "kind": "exp-lookit-text"
+        },
+        "eligibility-survey": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Language Exposure Survey",
+                    "properties": {
+                        "langChoice": {
+                            "enum": [
+                                "Cantonese",
+                                "Mandarin",
+                                "My child does not regularly hear Cantonese or Mandarin"
+                            ],
+                            "type": "string",
+                            "title": "In addition to English, if your child regularly hears Cantonese or Mandarin which one is your child most familiar with? If your child is regularly exposed to both with equal frequency, then you may choose either lanaguage.",
+                            "required": true
+                        }, 
+                        "email":{
+                            "type": "string",
+                            "title": "At the end of the study, we have a detailed quesitonnaire which is linked to Lookit through your email. Please enter your email address here: ",
+                            "required": true
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "langChoice": {
+                            "type": "radio",
+                            "message": "Please answer this question.",
+                            "validator": "required-field"
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Continue",
+            "showPreviousButton": false
+        },
+        "study-procedure": {
+            "kind": "exp-frame-select",
+            "frameOptions": [{
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "frameList": [{
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOC"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 15,
+                                "left": 20,
+                                "width": 60,
+                                "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0,
+                            "backgroundColor": "black"
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Prime"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Fam"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Prime"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Fam"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT1"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT2"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT3"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT4"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 15,
+                                "left": 20,
+                                "width": 60,
+                                "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongetter_end"
+                            },
+                            "audio": {
+                                "loop": false,
+                                "source": "all_done"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 1,
+                            "requireVideoCount": 0
+                        }
+                    ],
+                    "parameterSets": [{
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Dza_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Tsa_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Dza_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Tsa_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        }
+                    ],
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-video",
+                        "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+
+                        "audioTypes": [
+                            "ogg",
+                            "mp3"
+                        ],
+                        "videoTypes": [
+                            "webm",
+                            "mp4"
+                        ],
+                        "backgroundColor": "black",
+                        "autoProceed": true,
+                        "pauseKey": " ",
+                        "pauseKeyDescription": "space",
+                        "restartAfterPause": false,
+                        "pauseAudio": "pause_HO",
+                        "pauseVideo": "attentiongrabber_orig",
+                        "pauseText": "(You'll have a moment to turn around again.)",
+                        "unpauseAudio": "return_after_pause_HO"
+                    }
+                },
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "frameList": [{
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOC"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 15,
+                                "left": 20,
+                                "width": 60,
+                                "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Prime"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Fam"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Prime"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Fam"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT1"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT2"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT3"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT4"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 15,
+                                "left": 20,
+                                "width": 60,
+                                "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongetter_end"
+                            },
+                            "audio": {
+                                "loop": false,
+                                "source": "all_done"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 1,
+                            "requireVideoCount": 0
+                        }
+
+
+                    ],
+                    "parameterSets": [{
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Ca_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Za_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Ca_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Za_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        }
+
+                    ],
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-video",
+                        "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+
+                        "audioTypes": [
+                            "ogg",
+                            "mp3"
+                        ],
+                        "videoTypes": [
+                            "webm",
+                            "mp4"
+                        ],
+                        "backgroundColor": "black",
+                        "autoProceed": true,
+                        "pauseKey": " ",
+                        "pauseKeyDescription": "space",
+                        "restartAfterPause": false,
+                        "pauseAudio": "pause_HO",
+                        "pauseVideo": "attentiongrabber_orig",
+                        "pauseText": "(You'll have a moment to turn around again.)",
+                        "unpauseAudio": "return_after_pause_HO"
+                    }
+                },
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "frameList": [{
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOC"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 15,
+                                "left": 20,
+                                "width": 60,
+                                "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Prime"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Fam"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Prime"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEO_Fam"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT1"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT2"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT3"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "position": "fill",
+                                "source": "VIDEOT4"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 15,
+                                "left": 20,
+                                "width": 60,
+                                "source": "VIDEO_Prepost"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongetter_end"
+                            },
+                            "audio": {
+                                "loop": false,
+                                "source": "all_done"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 1,
+                            "requireVideoCount": 0
+                        }
+
+                    ],
+                    "parameterSets": [{
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Dza_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "CantoneseSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Tsa_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Dza_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Dza_Cantonese_Long",
+                            "VIDEOT1": "Dza_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Dza_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Dza_Tsa_test",
+                            "VIDEOT2": "Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Tsa_Cantonese_Long",
+                            "VIDEOT1": "Tsa_test",
+                            "VIDEOT2": "Dza_Tsa_test",
+                            "VIDEOT3": "Tsa_test",
+                            "VIDEOT4": "Tsa_Dza_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Ca_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "MandarinSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Za_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Fa_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Fa_English_Long",
+                            "VIDEOT1": "Fa_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Fa_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Fa_Va_test",
+                            "VIDEOT2": "Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Va_English_Long",
+                            "VIDEOT1": "Va_test",
+                            "VIDEOT2": "Fa_Va_test",
+                            "VIDEOT3": "Va_test",
+                            "VIDEOT4": "Va_Fa_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Ca_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Ca_Mandarin_Long",
+                            "VIDEOT1": "Ca_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Ca_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Ca_Za_test",
+                            "VIDEOT2": "Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        },
+                        {
+                            "VIDEOC": "CalibrationDuck",
+                            "VIDEO_Prime": "EnglishSong",
+                            "VIDEO_Prepost": "starfish",
+                            "VIDEO_Fam": "Za_Mandarin_Long",
+                            "VIDEOT1": "Za_test",
+                            "VIDEOT2": "Ca_Za_test",
+                            "VIDEOT3": "Za_test",
+                            "VIDEOT4": "Za_Ca_test"
+                        }
+                    ],
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-video",
+                        "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+
+                        "audioTypes": [
+                            "ogg",
+                            "mp3"
+                        ],
+                        "videoTypes": [
+                            "webm",
+                            "mp4"
+                        ],
+                        "backgroundColor": "black",
+                        "autoProceed": true,
+                        "pauseKey": " ",
+                        "pauseKeyDescription": "space",
+                        "restartAfterPause": false,
+                        "pauseAudio": "pause_HO",
+                        "pauseVideo": "attentiongrabber_orig",
+                        "pauseText": "(You'll have a moment to turn around again.)",
+                        "unpauseAudio": "return_after_pause_HO"
+                    }
+                }
+            ],
+            "generateProperties": "function(expData, sequence, child, pastSessions) {var formData = expData['6-eligibility-survey'].formData; if (formData.langChoice == 'Cantonese') { console.log('eligible'); return { 'whichFrames': 0, 'ELIGIBLE': true } } if (formData.langChoice == 'Mandarin') { console.log('eligible'); return { 'whichFrames': 1, 'ELIGIBLE': true } }else { console.log('ineligible'); return { 'whichFrames': [2],  'ELIGIBLE': true } } }"
+        }, 
+        "qualt-link": {
+            "blocks": [{
+                    "emph": true,
+                    "title": "For this final portion, your child does not need to be with you!"
+                },
+                {
+                    "text": "The last part of this study is a questionnaire which will ask you about your child's language and music environment.Please click the link below to complete the questionniare and then return to Lookit."
+                },
+                {
+                    "text": "(<a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionniare</a>.)"
+                }, 
+                {
+                    "text": ""
+                },
+                {
+                    "emph": true,
+                    "text": "Please do not close this window. Once you are done the survey, click Next."
+                }
+            ],
+            "showPreviousButton": false,
+            "kind": "exp-lookit-text"
+        }
+    },
+        "sequence": [
+            
+            "study-intro",
+            "video-consent",
+            "final-instructions",
+            "video-preview",
+            "video-quality",
+            "video-config",
+            "eligibility-survey",
+            "study-procedure",
+            "qualt-link",
+            "exit-survey"
+            
+            
+            
+            
+        ]
+    }
