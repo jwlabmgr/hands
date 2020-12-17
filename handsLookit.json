@@ -267,12 +267,8 @@
                         "isVideo": true,
                         "sources": [
                             {
-                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/examples/7_control_same.mp4",
+                                "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2020/12/Calibration_Duck_2020.mp4",
                                 "type": "video/mp4"
-                            },
-                            {
-                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/examples/7_control_same.webm",
-                                "type": "video/webm"
                             }
                         ],
                         "mustPlay": false
