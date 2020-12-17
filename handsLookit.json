@@ -15,7 +15,8 @@
             "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
             "procedures": "First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). During this activity, your child will see photographs of different people and objects, such as hands and feet (including your own!). We are interested in where your child is looking on the screen in response to the sounds that they hear. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant.",
             "institution": "University of British Columbia",
-            "additional_segments": [{
+            "additional_segments": [
+                {
                     "text": "At the end of the study, you will be asked to complete a survey about your child's language exposure, early vocabulary development, and ethnic background.",
                     "title": "Language survey"
                 },
@@ -35,7 +36,8 @@
             "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics Project ID: TODO)."
         },
         "study-intro": {
-            "blocks": [{
+            "blocks": [
+                {
                     "emph": true,
                     "text": "Welcome! This is part 1 of a 2-part study!",
                     "title": "Important: your child does not need to be with you for the entire duration of this set-up portion. However, we will need them to be present for a short portion later. Let's go over what will happen!."
@@ -61,30 +63,36 @@
         },
         "video-preview": {
             "kind": "exp-lookit-stimuli-preview",
-            "stimuli": [{
-                "caption": "There are two blocks in this study, one were we assess your child's understanding of the label for their mom and one where we assess their understanding of the word \"Hand\". In the \"mom\" block, your child will see a video of you paired with either a dog or another woman while hearing the label for you. In the \"hand\" block, your child will view their own hand paired with another infant's hand or with a foot while hearing the word \"hand\". These two blocks will appear in random order. Here's an example.",
-                "video": "attentiongrabber"
-            }],
+            "stimuli": [
+                {
+                    "caption": "There are two blocks in this study, one were we assess your child's understanding of the label for their mom and one where we assess their understanding of the word \"Hand\". In the \"mom\" block, your child will see a video of you paired with either a dog or another woman while hearing the label for you. In the \"hand\" block, your child will view their own hand paired with another infant's hand or with a foot while hearing the word \"hand\". These two blocks will appear in random order. Here's an example.",
+                    "video": "attentiongrabber"
+                }
+            ],
             "baseDir": "https://www.mit.edu/~kimscott/intermodal/",
             "videoTypes": [
                 "webm",
                 "mp4"
             ],
-            "blocks": [{
-                "text": "If you'd like to see an example of a video similar to the one your child will be shown in part 2, you can take a look ahead of time now. It's important that you watch this video without your child, so that the videos will still be new to them later. The mom and hand shown here are only examples in your study, your infant will see a video of you (your baby's mom) and their own hand."
-            }],
+            "blocks": [
+                {
+                    "text": "If you'd like to see an example of a video similar to the one your child will be shown in part 2, you can take a look ahead of time now. It's important that you watch this video without your child, so that the videos will still be new to them later. The mom and hand shown here are only examples in your study, your infant will see a video of you (your baby's mom) and their own hand."
+                }
+            ],
             "skipButtonText": "Skip preview",
             "previewButtonText": "Preview a video (my child can't see the screen)",
             "showPreviousButton": true
         },
         "final-instructions": {
             "kind": "exp-lookit-instructions",
-            "blocks": [{
+            "blocks": [
+                {
                     "title": "Instructions"
                 },
                 {
                     "title": "Video recording guide:",
-                    "listblocks": [{
+                    "listblocks": [
+                        {
                             "text": "In the following portion, you will be asked to record a few videos and an audio clips so that we can incorporate it into a personalized version for your child to see in the second part of this study. You will go through instructions to record an audio stream of yourself saying the label of \"hand\" and \"mom\" that your child is most likely to recognize, and videos of yourself and your child's hand. We will ask for 2 recordings of each video and audio clip."
                         },
                         {
@@ -101,7 +109,8 @@
                     "mediaBlock": {
                         "text": "You should hear 'Ready? Go!'",
                         "isVideo": false,
-                        "sources": [{
+                        "sources": [
+                            {
                                 "src": "http://www.mit.edu/~kimscott/intermodal/mp3/readygo_HO.mp3",
                                 "type": "audio/mp3"
                             },
@@ -124,7 +133,8 @@
             "showRecordMenu": true,
             "requireTestVideo": true,
             "completedItemText": "Did it!",
-            "instructionBlocks": [{
+            "instructionBlocks": [
+                {
                     "text": "<strong>Make sure the webcam you're using is roughly centered</strong> relative to this monitor. This makes it much easier for us to tell whether your child is looking to the left or right!",
                     "image": {
                         "alt": "Example images of using centered external webcam on monitor or built-in webcam on laptop.",
@@ -145,11 +155,10 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                
-                    "text": "If you have completed survey, then you are all done part 1 of our study! \n\n  You and your baby are helping us to better understand how children are connecting sounds in the world to words. Once you have completed the questionnaire, you may then close this window. You will be contacted within the next few days with your link to Part 2! \n\n  To thank you for your participation, after completing part 2, we will be emailing you a $10 Amazon gift card. If you don't hear from us within a week of completing part 1, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child.",
-                    "title": "Thank you for participating in our study!"
+                "text": "If you have completed survey, then you are all done part 1 of our study! \n\n  You and your baby are helping us to better understand how children are connecting sounds in the world to words. Once you have completed the questionnaire, you may then close this window. You will be contacted within the next few days with your link to Part 2! \n\n  To thank you for your participation, after completing part 2, we will be emailing you a $10 Amazon gift card. If you don't hear from us within a week of completing part 1, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child.",
+                "title": "Thank you for participating in our study!"
             }
-            },
+        },
         "eligibility-survey": {
             "kind": "exp-lookit-survey",
             "formSchema": {
@@ -157,8 +166,7 @@
                     "type": "object",
                     "title": "Information for Language and Background Questionnaire",
                     "properties": {
-                        
-                        "email":{
+                        "email": {
                             "type": "string",
                             "title": "At the end of the study, we have a detailed quesitonnaire which is linked to Lookit through your email. Please enter your email address here: ",
                             "required": true
@@ -178,59 +186,29 @@
             "nextButtonText": "Continue",
             "showPreviousButton": false
         },
-        "instructions_mom1": {
-            "kind": "exp-lookit-instructions",
-            "blocks": [{
-                    "title": "Instructions to record mom",
-                    "listblocks": [{
-                            "text": "In the next part, you will record a 30-second clip of yourself (the child's mother)."
+        "observation-mom1": {
+            "kind": "exp-lookit-observation",
+            "blocks": [
+                {
+                    "title": "Here you will record a 30-second clip of yourself!",
+                    "listblocks": [
+                        {
+                            "text": "Here you will record a 30-second clip of yourself (the child's mother)."
                         },
                         {
                             "text": "This will be a silent clip. We ask that, similar to taking a passport or driving liscense photo, that you don't smile and have a neutral expression. The video will be cropped to only your face and shoulders. We also ask that you wear a dark, solid coloured top, such as a black or dark grey shirt. The background should be a solid colour, such as a wall."
-                        }, 
+                        },
                         {
-                    "text": "We will be taking certain clips from this video recording and incorporate it in the study."
-                },
-                {
-                    "text": "Please take a look at the example video below."
-                }
-                    ]
-                },
-                {
-                    "text": "Here's an example video!",
-                    "title": "Test",
-                    "mediaBlock": {
-                        "text": "Once you have played this video, please click the button to go to the next part and try it yourself.",
-                        "isVideo": true,
-                        "sources": [{
-                                "src": "https://infantstudies.psych.ubc.ca/files/2020/12/Calibration_Duck_2020.mp4"
+                            "text": "We will be taking certain clips from this video recording and incorporate it in the study."
+                        },
+                        {
+                            "image": {
+                                "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
                             }
-                        ],
-                        "mustPlay": true
-                    }
+                        }
+                    ]
                 }
-            ]
-        },
-        "observation-mom1": {
-            "kind": "exp-lookit-observation",
-            "blocks": [{
-                "title": "Here you will record a 30-second clip of yourself!",
-                "listblocks": [{
-                        "text": "Here you will record a 30-second clip of yourself (the child's mother)."
-                    },
-                    {
-                        "text": "This will be a silent clip. We ask that, similar to taking a passport or driving liscense photo, that you don't smile and have a neutral expression. The video will be cropped to only your face and shoulders. We also ask that you wear a dark, solid coloured top, such as a black or dark grey shirt. The background should be a solid colour, such as a wall."
-                    },
-                    {
-                        "text": "We will be taking certain clips from this video recording and incorporate it in the study."
-                    },
-                    {
-                        "image": {
-                            "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
-                        }
-                    }
-                ]
-            }],
+            ],
             "hideWebcam": false,
             "hideControls": false,
             "recordSegmentLength": 30,
@@ -239,91 +217,9 @@
             "showPreviousButton": false,
             "recordingRequired": true
         },
-        "observation-handVid1": {
-            "kind": "exp-lookit-observation",
-            "blocks": [{
-                "title": "Here you will record a 30-second clip of the back of your child's hand!",
-                "listblocks": [{
-                        "text": "Here you will record a 30 second clip of the back of your child's hand."
-                    },
-                    {
-                        "text": "The most important thing is that the fingers need to be out stretched - their hand can't be in a closed fist or tightly curled."
-                    },
-                    {
-                        "text": "A good method we have seen in the past is to have the child on the mother's lap, and with one hand hold a piece of paper and the other hold the infant's forearm."
-                    },
-                    {
-                        "text": "We will be taking a clear still-frame from this and the image in the study will show the infant's hand and wrist. So please hold your infant's forearm."
-                    },
-                    {
-                        "image": {
-                            "src": "img/Screenshot 2020-11-29 151845.png"
-                        }
-                    }
-                ]
-            }],
-            "hideWebcam": false,
-            "hideControls": false,
-            "recordSegmentLength": 30,
-            "startRecordingAutomatically": false,
-            "nextButtonText": "move on",
-            "showPreviousButton": false,
-            "recordingRequired": true
-        },
-        "observation-mommyWord1": {
-            "kind": "exp-lookit-observation",
-            "blocks": [{
-                "title": "Here you will record an audio clip of \"mom\"!",
-                "listblocks": [{
-                        "text": "Here you will record a clip of you saying the label for mom. We ask that you say the word clearly 6 times, with a 3-5 second pause between each word."
-                    },
-                    {
-                        "text": "This will be the word used most often for the child's mom and the one most likely to be recognize by the child, (e.g. \"Mama\", \"Mommy\"). This doesn't necessary have to be in English if that is not what your child hears!"
-                    },
-                    {
-                        "text": "As seen in the example, if you typically use baby speak, please use that tone in these recordings."
-                    },
-                    {
-                        "image": {
-                            "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
-                        }
-                    }
-                ]
-            }],
-            "hideWebcam": false,
-            "hideControls": false,
-            "recordSegmentLength": 30,
-            "startRecordingAutomatically": false,
-            "nextButtonText": "move on",
-            "showPreviousButton": false,
-            "recordingRequired": true
-        },
-        "observation-handWord1": {
-            "kind": "exp-lookit-observation",
-            "blocks": [{
-                "title": "Here you will record an audio clip of \"hand\"!",
-                "listblocks": [{
-                        "text": "Here you will record a clip of you saying \"hand\". We ask that you say the word clearly 6 times, with a 3-5 second pause between each word."
-                    },
-                    {
-                        "text": "As seen in the example, if you typically use baby speak, please use that tone in these recordings."
-                    },
-                    {
-                        "image": {
-                            "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
-                        }
-                    }
-                ]
-            }],
-            "hideWebcam": false,
-            "hideControls": false,
-            "recordSegmentLength": 30,
-            "startRecordingAutomatically": false,
-            "nextButtonText": "move on",
-            "showPreviousButton": false
-        }, 
         "qualt-link": {
-            "blocks": [{
+            "blocks": [
+                {
                     "emph": true,
                     "title": "For this final portion, your child does not need to be with you!"
                 },
@@ -332,7 +228,7 @@
                 },
                 {
                     "text": "(<a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionniare</a>.)"
-                }, 
+                },
                 {
                     "text": ""
                 },
@@ -343,22 +239,62 @@
             ],
             "showPreviousButton": false,
             "kind": "exp-lookit-text"
+        },
+        "instructions-mom": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Instructions to record mom",
+                    "listblocks": [
+                        {
+                            "text": "In the next part, you will record a 30-second clip of yourself (the child's mother)."
+                        },
+                        {
+                            "text": "This will be a silent clip. We ask that, similar to taking a passport or driving liscense photo, that you don't smile and have a neutral expression. The video will be cropped to only your face and shoulders. We also ask that you wear a dark, solid coloured top, such as a black or dark grey shirt. The background should be a solid colour, such as a wall."
+                        },
+                        {
+                            "text": "We will be taking certain clips from this video recording and incorporate it in the study."
+                        },
+                        {
+                            "text": "Please take a look at the example video below."
+                        }
+                    ]
+                },
+                
+                {
+                    "title": "Here's an example video!",
+                    "mediaBlock": {
+                        "isVideo": true,
+                        "sources": [
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/examples/7_control_same.mp4",
+                                "type": "video/mp4"
+                            },
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/examples/7_control_same.webm",
+                                "type": "video/webm"
+                            }
+                        ],
+                        "mustPlay": false
+                    }
+                }
+            ],
+            
+            "nextButtonText": "Next"
         }
-},
-"sequence": [
-    
-    "study-intro",
-    "video-config",
-    "video-consent",
-    "eligibility-survey",
-    "video-preview",
-    "final-instructions",
-    "instructions_mom1",
-    "observation-mom1",
-    "observation-mommyWord1",
-    "observation-handVid1",
-    "observation-handWord1",
-    "qualt-link",
-    "exit-survey"
-]
+    },
+    "sequence": [
+        "instructions-mom",
+        
+        
+        "study-intro",
+        "video-config",
+        "video-consent",
+        "eligibility-survey",
+        "video-preview",
+        "final-instructions",
+        "qualt-link",
+        "observation-mom1",
+        "exit-survey"
+    ]
 }
