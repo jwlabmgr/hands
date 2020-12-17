@@ -203,8 +203,7 @@
                         "text": "Once you have played this video, please click the button to go to the next part and try it yourself.",
                         "isVideo": true,
                         "sources": [{
-                                "src": "mp4/videoStream_daab37f4-325e-470e-985f-a2a319166b73_5-observation-mom1_7303828d-5dea-4267-924f-5a62049f3769_1605682351474_531.mp4",
-                                "type": "video/mp4"
+                                "src": "https://infantstudies.psych.ubc.ca/files/2020/12/Calibration_Duck_2020.mp4"
                             }
                         ],
                         "mustPlay": true
@@ -243,9 +242,9 @@
         "observation-handVid1": {
             "kind": "exp-lookit-observation",
             "blocks": [{
-                "title": "Here you will record a 30-second clip of your child's hand!",
+                "title": "Here you will record a 30-second clip of the back of your child's hand!",
                 "listblocks": [{
-                        "text": "Here you will record a 30 second clip of your child's hand."
+                        "text": "Here you will record a 30 second clip of the back of your child's hand."
                     },
                     {
                         "text": "The most important thing is that the fingers need to be out stretched - their hand can't be in a closed fist or tightly curled."
