@@ -180,13 +180,13 @@
                     "title": "Instructions to record mom",
                     "listblocks": [
                         {
-                            "text": "In the next part, you will record a 30-second clip of yourself (the child's mother)."
+                            "text": "In the next part, you will record a 10-second clip of yourself (the child's mother)."
                         },
                         {
                             "text": "This will be a silent clip. We ask that, similar to taking a passport or driving liscense photo, that you don't smile and have a neutral expression. The video will be cropped to only your face and shoulders. We also ask that you wear a dark, solid coloured top, such as a black or dark grey shirt. The background should be a solid colour, such as a wall."
                         },
                         {
-                            "text": "We will be taking certain clips from this video recording and incorporate it in the study."
+                            "text": "We will be taking a still frame from this video recording and incorporate it in the study."
                         },
                         {
                             "text": "Please take a look at the example video below."
@@ -200,11 +200,11 @@
                         "isVideo": true,
                         "sources": [
                             {
-                                "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2020/12/Calibration_Duck_2020.mp4",
+                                "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/momvid_10s.mp4",
                                 "type": "video/mp4"
                             }
                         ],
-                        "mustPlay": false
+                        "mustPlay": true
                     }
                 }
             ],
@@ -218,7 +218,7 @@
                     "title": "Recording of Mom",
                     "listblocks": [
                         {
-                            "text": "Here you will record a 30-second clip of yourself (the child's mother)."
+                            "text": "Here you will record a 10-second clip of yourself (the child's mother)."
                         },
                         {
                             "text": "This will be a silent clip. We ask that, similar to taking a passport or driving liscense photo, that you don't smile and have a neutral expression. The video will be cropped to only your face and shoulders. We also ask that you wear a dark, solid coloured top, such as a black or dark grey shirt. The background should be a solid colour, such as a wall."
@@ -228,7 +228,7 @@
                         },
                         {
                             "image": {
-                                "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                                "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/momExImg.png"
                             }
                         }
                     ]
@@ -236,18 +236,58 @@
             ],
             "hideWebcam": false,
             "hideControls": false,
-            "recordSegmentLength": 30,
+            "recordSegmentLength": 10,
             "startRecordingAutomatically": false,
             "nextButtonText": "move on",
             "showPreviousButton": false,
             "recordingRequired": true
+        },
+        "instructions-hand": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Instructions to record your infant's hand",
+                    "listblocks": [
+                        {
+                            "text": "Here you will record a 10-second clip of the back of your child's hand."
+                        },
+                        {
+                            "text": "The most important thing is that the fingers need to be out stretched - their hand can't be in a closed fist or tightly curled."
+                        },
+                        {
+                            "text": "A good method we have seen in the past is to have the child on the mother's lap, and with one hand hold a piece of paper and the other hold the infant's forearm."
+                        },
+                        {
+                            "text": "We will be taking a clear still-frame image from this showing the infant's hand and wrist. So please hold your infant's forearm and don't worry if your child is squirmy."
+                        },
+                        {
+                            "text": "Please take a look at the example video below."
+                        }
+                    ]
+                },
+                {
+                    "title": "Here's an example video!",
+                    "mediaBlock": {
+                        "isVideo": true,
+                        "sources": [
+                            {
+                                "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/handex2_10s.mp4",
+                                "type": "video/mp4"
+                            }
+                        ],
+                        "mustPlay": true
+                    }
+                }
+            ],
+            
+            "nextButtonText": "Next"
         },
         "observation-hand1": {
             "kind": "exp-lookit-observation",
             "blocks": [{
                 "title": "Recording of hand",
                 "listblocks": [{
-                        "text": "Here you will record a 30 second clip of the back of your child's hand."
+                        "text": "Here you will record a 10-second clip of the back of your child's hand."
                     },
                     {
                         "text": "The most important thing is that the fingers need to be out stretched - their hand can't be in a closed fist or tightly curled."
@@ -260,14 +300,16 @@
                     },
                     {
                         "image": {
-                            "src": "img/handexp.png"
+                            "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/handExImg.png"
                         }
                     }
                 ]
-            }],
+            }
+            
+            ],
             "hideWebcam": false,
             "hideControls": false,
-            "recordSegmentLength": 30,
+            "recordSegmentLength": 10,
             "startRecordingAutomatically": false,
             "nextButtonText": "move on",
             "showPreviousButton": false,
@@ -286,6 +328,7 @@
         "final-instructions",
         "instructions-mom",
         "observation-mom1",
+        "instructions-hand",
         "observation-hand1",
         "qualt-link",
         "exit-survey"
