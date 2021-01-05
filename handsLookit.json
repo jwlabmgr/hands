@@ -204,7 +204,8 @@
                                 "type": "video/mp4"
                             }
                         ],
-                        "mustPlay": true
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample video."
                     }
                 }
             ],
@@ -275,7 +276,8 @@
                                 "type": "video/mp4"
                             }
                         ],
-                        "mustPlay": true
+                        "mustPlay": true,
+                         "warningText": "Please try playing the sample video."
                     }
                 }
             ],
