@@ -45,25 +45,29 @@
         },
         "study-intro": {
             "blocks": [
-                {
+                              {
                     "emph": true,
                     "text": "Welcome! This is part 1 of a 2-part study!",
                     "title": "Important: your child does not need to be with you for the entire duration of this set-up portion. However, we will need them to be present for a short portion later. Let's go over what will happen!."
                 },
                 {
+                    "text": "To be eligible for this study, your child must be regularly hearing 30%-100% English."
+                    
+                },
+                {
                     "text": "In this session, we will collect videos and audio clips from you to be used as part of your personalized study in part 2."
                 },
                 {
-                    "text": "We are interested in how young children learn words for individuals and categories. In this study, we will be measuring your child's understanding of the label for you (e.g. \"Mommy\"), and the word for something more general, like \"hand\". To do this, we will ask for you to record a video of you (your baby's mom), a video of your infant's hand, and audio recordings of you saying words to accompany each of these videos. "
+                    "text": "We are interested in how young children learn words for individuals and categories. In this study, we will be measuring your child's understanding of the label for you (e.g. \"Mommy\"), and the word for something more general, like \"hand\". To do this, we will ask for you to record a video of you (your baby's mom), a video of your infant's hand."
                 },
                 {
-                    "text": "After recording these videos, you will answer a few final questions. Within 7 days of completing part 1, you will receive an email inviting you and your baby to part 2 of the study!"
+                    "text": "After recording these videos, you will answer some final questions. Within 7 days of completing part 1, you will receive an email inviting you and your baby to part 2 of the study!"
                 },
                 {
-                    "text": "In a moment, you can preview a silent example of part 2 of the study to see what it would potentially look like. After reading the instructions, you will start the experiment when you and your baby are ready."
+                    "text": "In a few moments, you will have the option of previewing a silent example of part 2 of the study to see what it would potentially look like. After reading the instructions, you will start the experiment when you and your baby are ready."
                 },
                 {
-                    "text": "Part 1 of the study will take about 20 minutes, while part 2 will take about 5 minutes to complete. Upon finishing both parts of the study you will receive a $10 Amazon gift card."
+                    "text": "Part 1 of the study will take about 20 to 25 minutes, while part 2 will take about 5 to 10 minutes to complete. Upon finishing both parts of the study you will receive a $10 Amazon gift card."
                 }
             ],
             "showPreviousButton": false,
@@ -73,7 +77,7 @@
             "kind": "exp-lookit-stimuli-preview",
             "stimuli": [
                 {
-                    "caption": "There are two blocks in this study, one were we assess your child's understanding of the label for their mom and one where we assess their understanding of the word \"Hand\". In the \"mom\" block, your child will see a video of you paired with either a dog or another woman while hearing the label for you. In the \"hand\" block, your child will view their own hand paired with another infant's hand or with a foot while hearing the word \"hand\". These two blocks will appear in random order. Here's an example.",
+                    "caption": "Part 2 of the study has two blocks, one were we assess your child's understanding of the label for their mom and one where we assess their understanding of the word \"Hand\". In the \"mom\" block, your child will see a video of you paired with either a dog or another woman while hearing the label for you. In the \"hand\" block, your child will view their own hand paired with another infant's hand or with a foot while hearing the word \"hand\". These two blocks will appear in random order. Here's an example.",
                     "video": "attentiongrabber"
                 }
             ],
@@ -89,7 +93,7 @@
             ],
             "skipButtonText": "Skip preview",
             "previewButtonText": "Preview a video (my child can't see the screen)",
-            "showPreviousButton": true
+            "showPreviousButton": false
         },
         "final-instructions": {
             "kind": "exp-lookit-instructions",
@@ -114,14 +118,7 @@
             ],
             "nextButtonText": "Next"
         },
-        "exit-survey": {
-            "kind": "exp-lookit-exit-survey",
-            "debriefing": {
-                "text": "If you have completed survey, then you are all done part 1 of our study! \n\n  You and your baby are helping us to better understand how children are connecting sounds in the world to words. Once you have completed the questionnaire, you may then close this window. You will be contacted within the next few days with your link to Part 2! \n\n  To thank you for your participation, after completing part 2, we will be emailing you a $10 Amazon gift card. If you don't hear from us within a week of completing part 1, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child.",
-                "title": "Thank you for participating in our study!"
-            }, 
-            "additionalVideoPrivacyText": "As outlined in the consent, part 2 of this study will involve your child viewing videos of you paired with another mother and still images of their hand paired with another infant's hand. By consenting to this study you have agreed for us to use the silent video of you and the image of your infants' hand to be shown in part 2 of the study. If you do not wish for your videos/pictures to shown to any other participants in the study then please select the 'Withdrawal of video data' option below. This will withdraw you from the study and your videos will not be viewed by any participants or team members."
-        },
+        
         "email-survey": {
             "kind": "exp-lookit-survey",
             "formSchema": {
@@ -149,29 +146,7 @@
             "nextButtonText": "Continue",
             "showPreviousButton": false
         },
-        "qualt-link": {
-            "blocks": [
-                {
-                    "emph": true,
-                    "title": "For this final portion, your child does not need to be with you!"
-                },
-                {
-                    "text": "The last part of this study is a questionnaire which will ask you about your child's language and music environment.Please click the link below to complete the questionniare and then return to Lookit."
-                },
-                {
-                    "text": "(<a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionniare</a>.)"
-                },
-                {
-                    "text": ""
-                },
-                {
-                    "emph": true,
-                    "text": "Please do not close this window. Once you are done the survey, click Next."
-                }
-            ],
-            "showPreviousButton": false,
-            "kind": "exp-lookit-text"
-        },
+        
         "instructions-mom": {
             "kind": "exp-lookit-instructions",
             "blocks": [
@@ -315,18 +290,49 @@
             "nextButtonText": "move on",
             "showPreviousButton": false,
             "recordingRequired": true
+        },
+        "qualt-link": {
+            "blocks": [
+                {
+                    "emph": true,
+                    "title": "For this final portion, your child does not need to be with you!"
+                },
+                {
+                    "text": "The last part of this study is a questionnaire which will ask you about your child's language and music environment.Please click the link below to complete the questionniare and then return to Lookit."
+                },
+                {
+                    "text": "(<a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionniare</a>.)"
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "emph": true,
+                    "text": "Please do not close this window. Once you are done the survey, click Next."
+                }
+            ],
+            "showPreviousButton": false,
+            "kind": "exp-lookit-text"
+        },
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "text": "If you have completed survey, then you are all done part 1 of our study! \n\n  You and your baby are helping us to better understand how children are connecting sounds in the world to words.TODO: add hypothesis and predictions \n\n Once you have completed the questionnaire, you may then close this window. You will be contacted within the next seven days with your link to Part 2! \n\n  To thank you for your participation, after completing part 2, we will be emailing you a $10 Amazon gift card. If you don't hear from us within a week of completing part 1, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child.",
+                "title": "Thank you for participating in our study!"
+            }, 
+            "additionalVideoPrivacyText": "As outlined in the consent, part 2 of this study will involve your child viewing videos of you paired with another mother and still images of their hand paired with another infant's hand. By consenting to this study you have agreed for us to use the silent video of you and the image of your infants' hand to be shown in part 2 of the study. If you do not wish for your videos/pictures to shown to any other participants in the study then please select the 'Withdrawal of video data' option below. This will withdraw you from the study and your videos will not be viewed by any participants or team members."
         }
         
     },
     "sequence": [
         
-        
-        "video-consent",
         "study-intro",
         "video-config",
+        "video-consent",
         "email-survey",
         "video-preview",
         "final-instructions",
+       
         "instructions-mom",
         "observation-mom1",
         "instructions-hand",
