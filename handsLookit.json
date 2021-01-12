@@ -11,12 +11,12 @@
             "institution": "University of British Columbia",
             "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
             "purpose": "There is evidence that infants understand words even earlier than once thought. Here, we explore 6-month-old infants’ understanding of words that are typically used as a label for multiple items of the same kind (e.g., hand) versus words that are typically used to label individuals (e.g., Mommy).",
-            "procedures": "This is Part 1 of a two-part study. Part 1 may only be completed by mothers with 6-month-old babies.First, you will provide verbal consent to participate by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). Then, the study will proceed, which involves recording a few brief video clips: four of yourself and two of your baby’s hand. Next, you will be asked to provide your e-mail address (which we will use to send you Part 2 of the study and to match your questionnaire responses) and to click a link to complete a questionnaire about your baby’s language background and vocabulary. This questionnaire is on the “Qualtrics” platform, hosted by the University of British Columbia in Canada. We will use the video clips you record in this Part 1 to create Part 2 of the study, which will be customized for you and your baby to participate in on another day. Within a week, we will e-mail you a link to a unique version of Part 2 on Lookit, which will be password-protected such that only you may access it.",
+            "procedures": "This is Part 1 of a two-part study. Part 1 may only be completed by mothers with 6-month-old babies.First, you will provide verbal consent to participate by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). Then, the study will proceed, which involves recording a few brief video clips of yourself and of your baby’s hand. Next, you will be asked to provide your e-mail address (which we will use to send you Part 2 of the study and to match your questionnaire responses) and to click a link to complete a questionnaire about your baby’s language background and vocabulary. This questionnaire is on the “Qualtrics” platform, hosted by the University of British Columbia in Canada. We will use the video clips you record in this Part 1 to create Part 2 of the study, which will be customized for you and your baby to participate in on another day. Within a week, we will e-mail you a link to a unique version of Part 2 on Lookit, which will be password-protected such that only you may access it.",
             "risk_statement":"There are no known risks to participating in studies like ours where your child is accompanied by you. The procedure used in this study has been shown to be safe.",
             "payment": "While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website <a href='https://infantstudies.psych.ubc.ca/' target='_blank'>https://infantstudies.psych.ubc.ca/</a>. To thank you for your time, upon completion of both parts of the study, we will send a $10 e-gift card to Amazon to the e-mail address you provide.",
             
             "include_databrary": false,
-            "additional_video_privacy_statement": "<b>Important: Video Release!</b> <Br> Consent to participate in this study involves consent to ‘release’ the videos you record in Part 1 (of yourself and of your baby’s hand) for two purposes. (1) In order to integrate your video recordings into Part 2 of the study, we will store the videos in a repository on our Centre’s website <a href='https://infantstudies.psych.ubc.ca/' target='_blank'>https://infantstudies.psych.ubc.ca/</a>. This repository is not linked to within the website and would not appear in google searches. This is necessary because Lookit accesses files on public webpages to display in studies. Upon your participation in Part 2 (or until the participation link expires, whichever comes first), we will delete your videos from the repository. (2) Secondly, we may integrate your videos into Part 2 of the study that we create for another family. For example, in Part 2, your baby will see a video of you alongside a video of another mom, while hearing the word “Mommy”. If you would not consent to release of the videos you record in Part 1, we completely understand; in that case, please exit the study now. We have other studies available that do not involve video release and would be delighted for you to participate in those. <Br><Br>Please note that ‘release’ of the videos for storage our Centre’s website and for display in Part 2 for other families is separate from the privacy level you select for the videos stored on Lookit (in the previous section above).",
+            "additional_video_privacy_statement": "<b>Important: Video Release!</b> <Br> Consent to participate in this study involves consent to ‘release’ the videos you record in Part 1 (of yourself and of your baby’s hand) for two purposes. (1) In order to integrate your video recordings into Part 2 of the study, we will store the videos in a repository on our Centre’s website <a href='https://infantstudies.psych.ubc.ca/' target='_blank'>https://infantstudies.psych.ubc.ca/</a>. This repository is not linked to within the website and would not appear in google searches. This is necessary because Lookit accesses files on public webpages to display in studies. Upon your participation in Part 2 (or until the participation link expires, whichever comes first), we will delete your videos from the repository. (2) Secondly, we may integrate your videos into Part 2 of the study that we create for another family. For example, in Part 2, your baby will see a photo of you alongside a photo of another mom, while hearing the word “Mommy”. If you would not consent to release of the videos you record in Part 1, we completely understand; in that case, please exit the study now. We have other studies available that do not involve video release and would be delighted for you to participate in those. <Br><Br>Please note that ‘release’ of the videos for storage our Centre’s website and for display in Part 2 for other families is separate from the privacy level you select for the videos stored on Lookit (in the previous section above).",
             
 
             "gdpr": false,
@@ -55,10 +55,10 @@
                     
                 },
                 {
-                    "text": "In this session, we will collect videos and audio clips from you to be used as part of your personalized study in part 2."
+                    "text": "In this session, we will collect videos clips from you to be used as part of your personalized study in part 2."
                 },
                 {
-                    "text": "We are interested in how young children learn words for individuals and categories. In this study, we will be measuring your child's understanding of the label for you (e.g. \"Mommy\"), and the word for something more general, like \"hand\". To do this, we will ask for you to record a video of you (your baby's mom), a video of your infant's hand."
+                    "text": "We are interested in how young children learn words for individuals and categories. In this study, we will be measuring your child's understanding of the label for you (e.g. \"Mommy\"), and the word for something more general, like \"hand\". To do this, we will ask for you to record a video of you (your baby's mom), and a video of your infant's hand."
                 },
                 {
                     "text": "After recording these videos, you will answer some final questions. Within 7 days of completing part 1, you will receive an email inviting you and your baby to part 2 of the study!"
@@ -105,10 +105,10 @@
                     "title": "Video recording guide:",
                     "listblocks": [
                         {
-                            "text": "In the following portion, you will be asked to record a few videos and an audio clips so that we can incorporate it into a personalized version for your child to see in the second part of this study. You will go through instructions to record an audio stream of yourself saying the label of \"hand\" and \"mom\" that your child is most likely to recognize, and videos of yourself and your child's hand. We will ask for 2 recordings of each video and audio clip."
+                            "text": "In the following portion, you will be asked to record a few video clips. We will then take a still-frame or photo from each of these videos you film, so that we can incorporate it into a personalized version for your child to see in the second part of this study."
                         },
                         {
-                            "text": "Feel free to re-record yourself at each stage if you are not happy with the clip. We will be taking the middle segment of the recordings so please don't worry if the beginning or end show you moving to start or stop the recording."
+                            "text": "Feel free to re-record yourself at each stage if you are not happy with the clip. We will be taking clips from the middle segment of the recordings so please don't worry if the beginning or end show you moving to start or stop the recording."
                         },
                         {
                             "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
@@ -160,7 +160,7 @@
                             "text": "This will be a silent clip. We ask that, similar to taking a passport or driving liscense photo, that you don't smile and have a neutral expression. The video will be cropped to only your face and shoulders. We also ask that you wear a dark, solid coloured top, such as a black or dark grey shirt. The background should be a solid colour, such as a wall."
                         },
                         {
-                            "text": "We will be taking a still frame from this video recording and incorporate it in the study."
+                            "text": "We will be taking a still-frame from this video recording and incorporate it in the study."
                         },
                         {
                             "text": "Please take a look at the example video below."
@@ -199,7 +199,7 @@
                             "text": "This will be a silent clip. We ask that, similar to taking a passport or driving liscense photo, that you don't smile and have a neutral expression. The video will be cropped to only your face and shoulders. We also ask that you wear a dark, solid coloured top, such as a black or dark grey shirt. The background should be a solid colour, such as a wall."
                         },
                         {
-                            "text": "We will be taking certain clips from this video recording and incorporate it in the study."
+                            "text": "We will be taking a still-frame from this video recording and incorporate it in the study."
                         },
                         {
                             "image": {
