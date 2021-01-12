@@ -291,7 +291,28 @@
                         "unpauseAudio": "return_after_pause", 
                         "waitForRecordingMessageColor": "black"
                     }
-        
+        },
+        "baseImg1":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "mommy",
+            "images": [
+                {
+                    "src": "face1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "face2.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
         },
         
         "exit-survey": {
@@ -317,6 +338,7 @@
             
            
             "procIntro",
+            "baseImg1",
             "exit-survey"
             
             
