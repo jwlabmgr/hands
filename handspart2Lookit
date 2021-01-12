@@ -1,5 +1,21 @@
 {
     "frames": {
+        "study-intro": {
+            "blocks": [{
+                    "emph": true,
+                    "title": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
+                    "text": "During this study, your baby will watch silent clips of the videos you recorded from part 1, paired with silent videos of other moms, hands, and feet. There will be a series of audio word labels accompanying these videos while we will record where they chooses to look."
+                },
+                {
+                    "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. It is important that your child is not present at the moment to see this video, as babies learn very quickly and this short video can alter their behaviour in the actual study. After reading the instructions, you will start the experiment when you and your baby are ready."
+                },
+                {
+                    "text": "The video section will take about 5 to 10 minutes."
+                }
+            ],
+            "showPreviousButton": false,
+            "kind": "exp-lookit-text"
+        },
         "video-config": {
             "kind": "exp-video-config",
             "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to contact the Infant Studies Centre at 604-822-6408 or email us at infants@psych.ubc.ca"
@@ -30,52 +46,64 @@
             ],
             "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics Project ID: H20-03037)."
         },
-        "study-intro": {
-            "blocks": [{
-                    "emph": true,
-                    "title": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
-                    "text": "During this study, your baby will watch silent clips of the videos you recorded from part 1, paired with silent videos of other moms, hands, and feet. There will be a series of audio word labels accompanying these videos while we will record where they chooses to look."
-                },
-                {
-                    "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. It is important that your child is not present at the moment to see this video, as babies learn very quickly and this short video can alter their behaviour in the actual study. After reading the instructions, you will start the experiment when you and your baby are ready."
-                },
-                {
-                    "text": "The video section will take about 5 minutes."
-                },
-                {
-                    "text": "After the videos, you will answer a few final questions. Then you're all done!"
-                }
-            ],
-            "showPreviousButton": false,
-            "kind": "exp-lookit-text"
-        },
-        "video-preview": {
-            "kind": "exp-lookit-stimuli-preview",
-            "stimuli": [{
-                "caption": "During the study, clips of the videos you recorded of yourself and your baby's hand will be paired with other silent videos. Following this, there will be several trials where infants will hear accompanying audio of word labels. Here's an example with closed captions where the audio would be in the study.",
-                "video": "preview"
-            }],
-            "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
-            "videoTypes": [
-                "webm",
-                "mp4"
-            ],
-            "blocks": [{
-                    "text": "During the videos, we'll ask that you hold your child over your shoulder like this, so that you're facing away from the screen.",
-                    "image": {
-                        "alt": "Father holding child looking over his shoulder",
-                        "src": "https://www.mit.edu/~kimscott/intermodal/img/over_shoulder.jpg"
+        "eligibility-survey": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Study survey",
+                    "properties": {
+                        "coldFlu": {
+                            "enum": [
+                                "Yes",
+                                "No"
+                            ],
+                            "type": "string",
+                            "title": "Does your child have a cold/flu today? If you are unsure, please select no.",
+                            "required": true
+                        },
+                        "errInf": {
+                            "enum": [
+                                "Yes",
+                                "No"
+                            ],
+                            "type": "string",
+                            "title": "Does your child have an ear infection today? If you are unsure, please select no.",
+                            "required": true
+                        },
+                        
+                        "pain": {
+                            "enum": [
+                                "Yes",
+                                "No"
+                            ],
+                            "type": "string",
+                            "title": "Does your child have any pain or pressure in their ears today? If you are unsure, please select no.",
+                            "required": true
+                        }
                     }
                 },
-                {
-                    "text": "The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
-                },
-                {
-                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them."
+                "options": {
+                    "fields": {
+                        "coldFlu": {
+                            "type": "radio",
+                            "message": "Please answer this question to the best of your ability. If you are unsure about a question, please select no.",
+                            "validator": "required-field"
+                        },
+                        "errInf": {
+                            "type": "radio",
+                            "message": "Please answer this question to the best of your ability. If you are unsure about a question, please select no.",
+                            "validator": "required-field"
+                        },
+                        "pain": {
+                            "type": "radio",
+                            "message": "Please answer this question to the best of your ability. If you are unsure about a question, please select no.",
+                            "validator": "required-field"
+                        }
+                    }
                 }
-            ],
-            "skipButtonText": "Skip preview",
-            "previewButtonText": "Preview a video (my child can't see the screen)",
+            },
+            "nextButtonText": "Continue",
             "showPreviousButton": false
         },
         "final-instructions": {
@@ -86,11 +114,7 @@
                 {
                     "title": "Pausing and stopping",
                     "listblocks": [{
-                            "text": "In the experiment, there is a longer familiarization period where the same language sound will be repeated. This is meant to bore your child and we expect that they may not look at the screen the entire time, so don't worry if your child doesn't do so! We are more interested in what they are hearing than what they are seeing, so please just try to keep them facing the screen and they can look if they want to. If your child gets fussy or you must attend to something else, you may pause the study by pressing the space bar."
-                        },
-                        {
-                            "emph": true,
-                            "text": "Please only pause the study if your child is fussy, and not if they simply aren't looking"
+                            "text": "In the experiment, your child will see several pairs of images repeatedly. This repetition is built incase there are times where your child looks away from the screen. So don't worry if this happens! Please just try to keep them facing the screen and they can look if they want to. If your child gets fussy or you must attend to something else, you may pause the study by pressing the space bar."
                         },
                         {
                             "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
@@ -108,12 +132,8 @@
                         "text": "You should hear 'Ready? Go!'",
                         "isVideo": false,
                         "sources": [{
-                                "src": "http://www.mit.edu/~kimscott/intermodal/mp3/readygo_HO.mp3",
+                                "src": "https://raw.githubusercontent.com/jwlabmgr/hands/main/mp3/readygo_HO.mp3",
                                 "type": "audio/mp3"
-                            },
-                            {
-                                "src": "http://www.mit.edu/~kimscott/intermodal/ogg/readygo_HO.ogg",
-                                "type": "audio/ogg"
                             }
                         ],
                         "mustPlay": true,
@@ -149,646 +169,115 @@
             "requireItemConfirmation": true,
             "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. When you're ready to start the experiment, click next. You will have a moment to turn around."
         },
-        "exit-survey": {
-            "kind": "exp-lookit-exit-survey",
-            "debriefing": {
-                
-                    "text": "If you have completed survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are learning words early in their life. Recent research suggests that babies know much more about words, including able to understand some meanings behind common words in their environment, by 6-months! We really appreciate your help with this investigation!\n\n  To thank you for your participation, we will be emailing you a $10 USD Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their langauge development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
-                    "title": "Thank you for participating in our study!"
-            }
-            },
-        "study-procedure": {
-            "kind": "exp-frame-select",
-            "frameOptions": [{
-                    "kind": "choice",
-                    "sampler": "random-parameter-set",
-                    "frameList": [
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "begin"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "12/Calibration_Duck_2020.mp4"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 15,
-                                "left": 20,
-                                "width": 60,
-                                "source": "VIDEO_Prepost"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0,
-                            "backgroundColor": "black"
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_momWithinBase"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_momWithinBase"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_momAcrossBase"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_momAcrossBase"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_momWithinTest"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_momWithinTest"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_momAcrossTest"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_momAcrossTest"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEOT_handWithinBase"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_handWithinBase"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_handAcrossBase"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEOT_handAcrossBase"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        
-                        
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEOT_handWithinTest"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_handWithinTest"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEO_handAcrossTest"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "position": "fill",
-                                "source": "VIDEOT_handAcrossTest"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongrabber_chimes"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1
-                        },
-                        
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 15,
-                                "left": 20,
-                                "width": 60,
-                                "source": "VIDEO_Prepost"
-                            },
-                            "doRecording": true,
-                            "requireVideoCount": 1,
-                            "requireAudioCount": 0
-                        },
-                        {
-                            "video": {
-                                "loop": false,
-                                "top": 40,
-                                "left": 45,
-                                "width": 10,
-                                "source": "attentiongetter_end"
-                            },
-                            "audio": {
-                                "loop": false,
-                                "source": "all_done"
-                            },
-                            "doRecording": false,
-                            "requireAudioCount": 1,
-                            "requireVideoCount": 0
-                        }
-                    ],
-                    "parameterSets": [{
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_Va_test",
-                            "VIDEOT2": "Fa_test",
-                            "VIDEOT3": "Fa_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_test",
-                            "VIDEOT2": "Fa_Va_test",
-                            "VIDEOT3": "Fa_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Fa_Va_test",
-                            "VIDEOT2": "Va_test",
-                            "VIDEOT3": "Va_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va_test",
-                            "VIDEOT2": "Fa_Va_test",
-                            "VIDEOT3": "Va_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Dza_Tsa_test",
-                            "VIDEOT2": "Dza_test",
-                            "VIDEOT3": "Dza_test",
-                            "VIDEOT4": "Tsa_Dza_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Dza_test",
-                            "VIDEOT2": "Dza_Tsa_test",
-                            "VIDEOT3": "Dza_test",
-                            "VIDEOT4": "Tsa_Dza_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Tsa_Cantonese_Long",
-                            "VIDEOT1": "Dza_Tsa_test",
-                            "VIDEOT2": "Tsa_test",
-                            "VIDEOT3": "Tsa_test",
-                            "VIDEOT4": "Tsa_Dza_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "CantoneseSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Tsa_Cantonese_Long",
-                            "VIDEOT1": "Tsa_test",
-                            "VIDEOT2": "Dza_Tsa_test",
-                            "VIDEOT3": "Tsa_test",
-                            "VIDEOT4": "Tsa_Dza_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_Va_test",
-                            "VIDEOT2": "Fa_test",
-                            "VIDEOT3": "Fa_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Fa_English_Long",
-                            "VIDEOT1": "Fa_test",
-                            "VIDEOT2": "Fa_Va_test",
-                            "VIDEOT3": "Fa_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Fa_Va_test",
-                            "VIDEOT2": "Va_test",
-                            "VIDEOT3": "Va_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Va_English_Long",
-                            "VIDEOT1": "Va_test",
-                            "VIDEOT2": "Fa_Va_test",
-                            "VIDEOT3": "Va_test",
-                            "VIDEOT4": "Va_Fa_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Dza_Tsa_test",
-                            "VIDEOT2": "Dza_test",
-                            "VIDEOT3": "Dza_test",
-                            "VIDEOT4": "Tsa_Dza_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Dza_Cantonese_Long",
-                            "VIDEOT1": "Dza_test",
-                            "VIDEOT2": "Dza_Tsa_test",
-                            "VIDEOT3": "Dza_test",
-                            "VIDEOT4": "Tsa_Dza_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Tsa_Cantonese_Long",
-                            "VIDEOT1": "Dza_Tsa_test",
-                            "VIDEOT2": "Tsa_test",
-                            "VIDEOT3": "Tsa_test",
-                            "VIDEOT4": "Tsa_Dza_test"
-                        },
-                        {
-                            "VIDEOC": "CalibrationDuck",
-                            "VIDEO_Prime": "EnglishSong",
-                            "VIDEO_Prepost": "starfish",
-                            "VIDEO_Fam": "Tsa_Cantonese_Long",
-                            "VIDEOT1": "Tsa_test",
-                            "VIDEOT2": "Dza_Tsa_test",
-                            "VIDEOT3": "Tsa_test",
-                            "VIDEOT4": "Tsa_Dza_test"
-                        }
-                    ],
-                    "commonFrameProperties": {
+        "video-preview": {
+            "kind": "exp-lookit-stimuli-preview",
+            "stimuli": [{
+                "caption": "During the study, clips of the videos you recorded of yourself and your baby's hand will be paired with other silent videos. Following this, there will be several trials where infants will hear accompanying audio of word labels. Here's an example with closed captions where the audio would be in the study.",
+                "video": "preview"
+            }],
+            "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "blocks": [{
+                    "text": "During the videos, we'll ask that you hold your child over your shoulder like this, so that you're facing away from the screen.",
+                    "image": {
+                        "alt": "Father holding child looking over his shoulder",
+                        "src": "https://www.mit.edu/~kimscott/intermodal/img/over_shoulder.jpg"
+                    }
+                },
+                {
+                    "text": "The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
+                },
+                {
+                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them."
+                }
+            ],
+            "skipButtonText": "Skip preview",
+            "previewButtonText": "Preview a video (my child can't see the screen)",
+            "showPreviousButton": false
+        },
+        "procIntro":{
+            "kind": "group",
+            "frameList": [
+                {
+                    "video":{
+                        "source": "begin",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "doRecording": false,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "top": 40,
+                        "left": 45,
+                        "width": 10,
+                        "source": "attentiongrabber_chimes"
+                    },
+                    "doRecording": false,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "position": "fill",
+                        "source": "CalibrationDuck"
+                    },
+                    "doRecording": true,
+                    "requireVideoCount": 1,
+                    "requireAudioCount": 0
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "top": 40,
+                        "left": 45,
+                        "width": 10,
+                        "source": "attentiongrabber_chimes"
+                    },
+                    "doRecording": false,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "top": 15,
+                        "left": 20,
+                        "width": 60,
+                        "source": "starfish"
+                    },
+                    "doRecording": true,
+                    "requireVideoCount": 1,
+                    "requireAudioCount": 0,
+                    "backgroundColor": "black"
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "top": 40,
+                        "left": 45,
+                        "width": 10,
+                        "source": "attentiongrabber_chimes"
+                    },
+                    "doRecording": false,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                }
+                ],
+                "commonFrameProperties": {
                         "kind": "exp-lookit-video",
-                        "baseDir": "https://infantstudies-psych.sites.olt.ubc.ca/files/2020/",
-
+                        "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
                         "audioTypes": [
-                            "ogg",
                             "mp3"
                         ],
                         "videoTypes": [
-                            "webm",
                             "mp4"
                         ],
                         "backgroundColor": "black",
@@ -796,24 +285,38 @@
                         "pauseKey": " ",
                         "pauseKeyDescription": "space",
                         "restartAfterPause": false,
-                        "pauseAudio": "pause_HO",
+                        "pauseAudio": "pause",
                         "pauseVideo": "attentiongrabber_orig",
                         "pauseText": "(You'll have a moment to turn around again.)",
-                        "unpauseAudio": "return_after_pause_HO"
+                        "unpauseAudio": "return_after_pause", 
+                        "waitForRecordingMessageColor": "black"
                     }
-                }
-            ]
-        }
+        
+        },
+        
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                
+                    "text": "If you have completed survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are learning words early in their life. Recent research suggests that babies know much more about words, including able to understand some meanings behind common words in their environment, by 6-months! TODO: add about the hypothesis and prediction (2 lines) \n\n We really appreciate your help with this investigation!\n\n  To thank you for your participation, we will be emailing you a $10 USD Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their langauge development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+                    "title": "Thank you for participating in our study!"
+            },
+            "additionalVideoPrivacyText": "As outlined in the consent, part 2 of this study will involve your child viewing videos of you paired with another mother and still images of their hand paired with another infant's hand. By consenting to this study you have agreed for us to use the silent video of you and the image of your infants' hand to be shown in part 2 of the study. If you do not wish for your videos/pictures to shown to any other participants in the study then please select the 'Withdrawal of video data' option below. This will withdraw you from the study and your videos will not be viewed by any participants or team members."
+            }
+       
     },
         "sequence": [
             
             "study-intro",
-            "video-consent",
-            "final-instructions",
-            "video-preview",
-            "video-quality",
             "video-config",
-            "study-procedure",
+            "video-consent",
+            "eligibility-survey",
+            "final-instructions",
+            "video-quality",
+            "video-preview",
+            
+           
+            "procIntro",
             "exit-survey"
             
             
