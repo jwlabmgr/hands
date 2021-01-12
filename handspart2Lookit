@@ -21,30 +21,39 @@
             "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to contact the Infant Studies Centre at 604-822-6408 or email us at infants@psych.ubc.ca"
         },
         "video-consent": {
-            "gdpr": false,
             "kind": "exp-lookit-video-consent",
+            "template": "consent_005",
             "PIName": "Dr. Janet F. Werker",
-            "datause": "We are primarily interested in your child's reactions to the videos and sounds. A research assistant will watch your video to examine where your child is looking on the screen.",
-            "payment": "There are no known risks to participating in studies like ours where your child is accompanied by you. The procedure used in this study has been shown to be safe. While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website (https://infantstudies.psych.ubc.ca/). Within 5 business days of completing the study, we will send you a $10 electronic gift card to Amazon to thank you for participating; we will use the e-mail address you provide at the end of the study. ",
-            "purpose": "There is evidence that infants understand words even earlier than once thought. Here, we explore 6-month-old infants’ understanding of words that are typically used as a label for multiple items of the same kind (e.g., hand) versus words that are typically used to label individuals (e.g., Mommy).",
-            "template": "consent_003",
-            "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
-            "procedures": "This study takes about 5-10 minutes to complete. First, you will provide verbal consent by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). During the study, word labels will be repeated accompanying still-frames of the videos you recorded previously. We are interested in your child’s looking behaviour to the screen in response to what they hear. It’s okay if your child sometimes looks away from the screen, there is no need to redirect their attention. Your child’s looking behaviour will be video-recorded for subsequent observation by a research assistant. After the study, you will be asked to complete a short questionnaire about your child's health on the day of the study. If you consent to participate today, we would like to follow-up with you when your baby is older (at 18 and 24 months) to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance. ",
             "institution": "University of British Columbia",
-            "additional_segments": [{
-                    "text": "To comply with guidelines from research funders and journal publications, data from this study may be made “open access”, that is, shared publicly. The shared data will not contain information that can be used to identify you or your child. The data we collect is typically made open access via online repositories like the Open Science Framework (https://osf.io). Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data. ",
-                    "title": "Open access"
-                },
+            "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
+            "purpose": "There is evidence that infants understand words even earlier than once thought. Here, we explore 6-month-old infants’ understanding of words that are typically used as a label for multiple items of the same kind (e.g., hand) versus words that are typically used to label individuals (e.g., Mommy).",
+            "procedures": "This is Part 2 of a two-part study; we have created a unique study for your baby to see today, which includes the brief video clips you recorded in Part 1.  First, you will provide verbal consent to participate by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!).  Then, the study will proceed for your baby to observe, which involves seeing different ‘Mommies’, a dog, baby hands, and adult feet. Your baby will hear your voice labelling the images. We are interested in your baby’s looking behaviour to the screen in response to what they hear. It’s okay if your baby sometimes looks away from the screen, there is no need to redirect their attention. To thank you for participating today, within a week, we will e-mail you a $10 e-gift card to Amazon. If you complete the study today, we would like to follow-up with you when your baby is older (at 18 and 24 months) to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the “Wordbank” platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+            "risk_statement":"There are no known risks to participating in studies like ours where your child is accompanied by you. The procedure used in this study has been shown to be safe.",
+            "payment": "While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website <a href='https://infantstudies.psych.ubc.ca/' target='_blank'>https://infantstudies.psych.ubc.ca/</a>. To thank you for your time, upon completion of both parts of the study, we will send a $10 e-gift card to Amazon to the e-mail address you provide.",
+            
+            "include_databrary": false,
+            
+            
+
+            "gdpr": false,
+            "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics file no. H20-03036).",
+        
+            "additional_segments": [
                 {
-                    "text": "Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>. Child Protection Disclosure If, upon review of your stored video, a researcher were to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities. Data sharing To comply with guidelines from research funders and journal publications, electronic research data in data sheets from this study may be shared publicly. The shared data sheets will not contain information that can be used to identify you or your child. Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data.",
+                    "text": "Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>.",
                     "title": "US Patriot Act Disclosure"
                 },
                 {
-                    "text": "If, upon review of your stored video, a researcher was to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities. ",
+                    "text": "If, upon review of your stored video, a researcher were to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities.",
                     "title": "Child Protection Disclosure"
+                },
+                {
+                    "text": "To comply with guidelines from research funders and journal publications, electronic research data in data sheets from this study may be shared publicly. The shared data sheets will not contain information that can be used to identify you or your child. Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data.",
+                    "title": "Data sharing"
                 }
-            ],
-            "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics Project ID: H20-03037)."
+            ]
+            
+            
         },
         "eligibility-survey": {
             "kind": "exp-lookit-survey",
@@ -314,6 +323,72 @@
             "durationSeconds": 10,
             "pauseVideo": "attentiongrabber_orig"
         },
+        "baseImg2":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "mommy",
+            "images": [
+                {
+                    "src": "face1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "dog.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "baseImg3":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "hand",
+            "images": [
+                {
+                    "src": "hand1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "hand2.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "baseImg4":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "hand",
+            "images": [
+                {
+                    "src": "hand1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "foot.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
         
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
@@ -339,6 +414,9 @@
            
             "procIntro",
             "baseImg1",
+            "baseImg2",
+            "baseImg3",
+            "baseImg4",
             "exit-survey"
             
             
