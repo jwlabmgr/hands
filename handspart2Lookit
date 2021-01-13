@@ -306,11 +306,11 @@
             "audio": "mommy",
             "images": [
                 {
-                    "src": "face1.png",
+                    "src": "mom1.png",
                     "position": "left"
                 },
                 {
-                    "src": "face2.png",
+                    "src": "face1.png",
                     "position": "right"
                 }
             ],
@@ -328,7 +328,7 @@
             "audio": "mommy",
             "images": [
                 {
-                    "src": "face1.png",
+                    "src": "mom1.png",
                     "position": "left"
                 },
                 {
@@ -354,7 +354,7 @@
                     "position": "left"
                 },
                 {
-                    "src": "hand2.png",
+                    "src": "child1.png",
                     "position": "right"
                 }
             ],
@@ -372,11 +372,11 @@
             "audio": "hand",
             "images": [
                 {
-                    "src": "hand1.png",
+                    "src": "child1.png",
                     "position": "left"
                 },
                 {
-                    "src": "foot.png",
+                    "src": "foot1.png",
                     "position": "right"
                 }
             ],
