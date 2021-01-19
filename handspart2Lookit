@@ -126,6 +126,10 @@
                             "text": "In the experiment, your child will see several pairs of images repeatedly. This repetition is built in case there are times where your child looks away from the screen. So don't worry if this happens! Please just try to keep them facing the screen and they can look if they want to. If your child gets fussy or you must attend to something else, you may pause the study by pressing the space bar."
                         },
                         {
+                            "emph": true,
+                            "text": "Please only pause the study if your child is fussy, and not if they simply aren't looking."
+                        },
+                        {
                             "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
                         },
                         {
@@ -153,6 +157,34 @@
             "nextButtonText": "Finalize your webcam settings",
             "showPreviousButton": false
         },
+        "video-preview": {
+            "kind": "exp-lookit-stimuli-preview",
+            "stimuli": [{
+                "caption": "During the study, clips of the videos you recorded of yourself and your baby's hand will be paired with other photos. Following this, there will be several trials where infants will hear accompanying audio of word labels. Here's an example with closed captions where the audio would be in the study.",
+                "video": "preview"
+            }],
+            "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+            "videoTypes": [
+                "mp4"
+            ],
+            "blocks": [
+                {
+                    "text": "<strong> Preview the study </sttrong>"
+                },
+                {
+                    "text": "Durng the study, we ask that parents refrain from watching the screen. The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
+                },
+                {
+                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them. The example video is silent so that your child cannot accidently hear the sounds but we have provided closed captions for you."
+                }, 
+                {
+                    "text": "If you wish the skip the preview, please press the skip button below."
+                }
+            ],
+            "skipButtonText": "Skip the preview",
+            "previewButtonText": "Preview a video (my child can't see the screen)",
+            "showPreviousButton": false
+        },
         "video-quality": {
             "kind": "exp-video-config-quality",
             "title": "Final webcam setup",
@@ -160,7 +192,8 @@
             "showRecordMenu": true,
             "requireTestVideo": true,
             "completedItemText": "Did it!",
-            "instructionBlocks": [{
+            "instructionBlocks": [
+                {
                     "text": "<strong>Make sure the webcam you're using is roughly centered</strong> relative to this monitor. This makes it much easier for us to tell whether your child is looking to the left or right!",
                     "image": {
                         "alt": "Example images of using centered external webcam on monitor or built-in webcam on laptop.",
@@ -173,39 +206,17 @@
                         "alt": "Example images showing laptop screen turned off if using external monitor and webcam, or external monitor turned off if using built-in webcam and laptop screen.",
                         "src": "https://s3.amazonaws.com/lookitcontents/website/monitors.png"
                     }
-                }
-            ],
-            "requireItemConfirmation": true,
-            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. When you're ready to start the experiment, click next. You will have a moment to turn around."
-        },
-        "video-preview": {
-            "kind": "exp-lookit-stimuli-preview",
-            "stimuli": [{
-                "caption": "During the study, clips of the videos you recorded of yourself and your baby's hand will be paired with other photos. Following this, there will be several trials where infants will hear accompanying audio of word labels. Here's an example with closed captions where the audio would be in the study.",
-                "video": "preview"
-            }],
-            "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
-            "videoTypes": [
-                "webm",
-                "mp4"
-            ],
-            "blocks": [{
-                    "text": "During the videos, we'll ask that you hold your child over your shoulder like this, so that you're facing away from the screen.",
+                }, 
+                {
+                    "text": "During the videos, we'll ask that you hold your child over your shoulder like this, so that you're facing away from the screen. Take a look at your webcam view above. Get comfy, and adjust your own position or the computer as needed so both you and your child are visible.",
                     "image": {
                         "alt": "Father holding child looking over his shoulder",
                         "src": "https://www.mit.edu/~kimscott/intermodal/img/over_shoulder.jpg"
                     }
-                },
-                {
-                    "text": "The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
-                },
-                {
-                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them during the actual study."
                 }
             ],
-            "skipButtonText": "Skip preview",
-            "previewButtonText": "Preview a video (my child can't see the screen)",
-            "showPreviousButton": false
+            "requireItemConfirmation": true,
+            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. Please ensure you can see your child's eyes in the video. \n\n Once you are ready to begin the study, please click the next button. You will have a moment to turn around and get into position before the first trial begins."
         },
         "procIntro":{
             "kind": "group",
@@ -394,7 +405,7 @@
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
                 
-                    "text": "If you have completed survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are learning words early in their life. Recent research suggests that by 6-months, babies know alot about words, including able to understand some meanings behind common words in their environment! Your participation in this study will help us understand whether there may be differences to how babies percieve word labels if they grow up hearing just one or multiple languages. \n\n We really appreciate your help with this investigation!\n\n  To thank you for your participation, we will be emailing you a $10 USD Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their langauge development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+                    "text": "If you have completed survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are learning words early in their life. Recent research suggests that by 6-months, babies know a lot about words, including able to understand some meanings behind common words in their environment! In this study, we examined 6-month-olds' understanding of labels for individuals (like \"Mommy\") and labels for categories (like \"hand\"). Your participation in this study will help us understand whether there may be differences to how babies percieve word labels from different categories and whether hearing multiple languages influences this rate of learning.  \n\n We really appreciate your help with this investigation!\n\n  To thank you for your participation, we will be emailing you a $10 USD Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their langauge development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
                     "title": "Thank you for participating in our study!"
             },
             "additionalVideoPrivacyText": "As outlined in the consent, part 2 of this study will involve your child viewing videos of you paired with another mother and still images of their hand paired with another infant's hand. By consenting to this study you have agreed for us to use the silent video of you and the image of your infants' hand to be shown in part 2 of the study. If you do not wish for your videos/pictures to shown to any other participants in the study then please select the 'Withdrawal of video data' option below. This will withdraw you from the study and your videos will not be viewed by any participants or team members."
