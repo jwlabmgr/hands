@@ -11,7 +11,7 @@
             "institution": "University of British Columbia",
             "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
             "purpose": "There is evidence that infants understand words even earlier than once thought. Here, we explore 6-month-old infants’ understanding of words that are typically used as a label for multiple items of the same kind (e.g., hand) versus words that are typically used to label individuals (e.g., Mommy).",
-            "procedures": "This is Part 1 of a two-part study. Part 1 may only be completed by mothers with 6-month-old babies.First, you will provide verbal consent to participate by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). Then, the study will proceed, which involves recording a few brief video clips of yourself and of your baby’s hand. Next, you will be asked to provide your e-mail address (which we will use to send you Part 2 of the study and to match your questionnaire responses) and to click a link to complete a questionnaire about your baby’s language background and vocabulary. This questionnaire is on the “Qualtrics” platform, hosted by the University of British Columbia in Canada. We will use the video clips you record in this Part 1 to create Part 2 of the study, which will be customized for you and your baby to participate in on another day. Within a week, we will e-mail you a link to a unique version of Part 2 on Lookit, which will be password-protected such that only you may access it.",
+            "procedures": "This is Part 1 of a two-part study. Part 1 may only be completed by mothers with 6-month-old babies. First, you will provide verbal consent to participate by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!). Then, the study will proceed, which involves recording a few brief video clips of yourself and of your baby’s hand. Next, you will be asked to provide your e-mail address (which we will use to send you Part 2 of the study and to match your questionnaire responses) and to click a link to complete a questionnaire about your baby’s language background and vocabulary. This questionnaire is on the “Qualtrics” platform, hosted by the University of British Columbia in Canada. We will use the video clips you record in this Part 1 to create Part 2 of the study, which will be customized for you and your baby to participate in on another day. Within a week, we will e-mail you a link to a unique version of Part 2 on Lookit, which will be password-protected such that only you may access it.",
             "risk_statement":"There are no known risks to participating in studies like ours where your child is accompanied by you. The procedure used in this study has been shown to be safe.",
             "payment": "While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website <a href='https://infantstudies.psych.ubc.ca/' target='_blank'>https://infantstudies.psych.ubc.ca/</a>. To thank you for your time, upon completion of both parts of the study, we will send a $10 e-gift card to Amazon to the e-mail address you provide.",
             
@@ -48,7 +48,7 @@
                               {
                     "emph": true,
                     "text": "Welcome! This is part 1 of a 2-part study!",
-                    "title": "Important: your child does not need to be with you for the entire duration of this set-up portion. However, we will need them to be present for a short portion later. Let's go over what will happen!."
+                    "title": "Important: your child does not need to be with you for the entire duration of this set-up portion. However, we will need them to be present for a short portion later. Let's go over what will happen!"
                 },
                 {
                     "text": "To be eligible for this study, your child must be regularly hearing 30%-100% English."
@@ -58,16 +58,16 @@
                     "text": "In this session, we will collect videos clips from you to be used as part of your personalized study in part 2."
                 },
                 {
-                    "text": "We are interested in how young children learn words for individuals and categories. In this study, we will be measuring your child's understanding of the label for you (e.g. \"Mommy\"), and the word for something more general, like \"hand\". To do this, we will ask for you to record a video of you (your baby's mom), and a video of your infant's hand."
+                    "text": "We are interested in how young children learn words for individuals and categories. In this study, we will be measuring your child's understanding of the label for you (e.g. \"Mommy\"), and the word for something more general, like \"hand\". To do this, we will ask for you to record a video of you (your baby's mom), and a video of your infant's hand. In Part 2, we will take clips from these videos to be incorporated into a personalized study for your child."
                 },
                 {
-                    "text": "After recording these videos, you will answer some final questions. Within 7 days of completing part 1, you will receive an email inviting you and your baby to part 2 of the study!"
+                    "text": "After recording these videos, you will answer a language background questionnaire. Within 7 days of completing Part 1, you will receive an email inviting you and your baby to Part 2 of the study!"
                 },
                 {
-                    "text": "In a few moments, you will have the option of previewing a silent example of part 2 of the study to see what it would potentially look like. After reading the instructions, you will start the experiment when you and your baby are ready."
+                    "text": "In a few moments, you will have the option of previewing a silent example of Part 2 of the study to see what it would potentially look like. After reading the instructions, you will start the experiment when you and your baby are ready."
                 },
                 {
-                    "text": "Part 1 of the study will take about 20 to 25 minutes, while part 2 will take about 5 to 10 minutes to complete. Upon finishing both parts of the study you will receive a $10 Amazon gift card."
+                    "text": "Part 1 of the study will take about 20 to 25 minutes, while Part 2 will take about 5 to 10 minutes to complete. Upon finishing both parts of the study, you will receive a $10 Amazon gift card!"
                 }
             ],
             "showPreviousButton": false,
@@ -88,7 +88,7 @@
             ],
             "blocks": [
                 {
-                    "text": "If you'd like to see an example of a video similar to the one your child will be shown in part 2, you can take a look ahead of time now. It's important that you watch this video without your child, so that the videos will still be new to them later. The mom and hand shown here are only examples in your study, your infant will see a video of you (your baby's mom) and their own hand."
+                    "text": "If you'd like to see an example of a video similar to the one your child will be shown in Part 2, you can take a look ahead of time now. It's important that you watch this video without your child, so that the videos will still be new to them later. The mom and hand shown here are only examples in your study, your infant will see a video of you (your baby's mom) and their own hand."
                 }
             ],
             "skipButtonText": "Skip preview",
@@ -118,7 +118,6 @@
             ],
             "nextButtonText": "Next"
         },
-        
         "email-survey": {
             "kind": "exp-lookit-survey",
             "formSchema": {
@@ -146,7 +145,6 @@
             "nextButtonText": "Continue",
             "showPreviousButton": false
         },
-        
         "instructions-mom": {
             "kind": "exp-lookit-instructions",
             "blocks": [
@@ -224,7 +222,7 @@
                     "title": "Instructions to record your infant's hand",
                     "listblocks": [
                         {
-                            "text": "Here you will record a 10-second clip of the back of your child's hand."
+                            "text": "Here you will record a 10-second clip of the back of your child's <b>right hand</b>."
                         },
                         {
                             "text": "The most important thing is that the fingers need to be out stretched - their hand can't be in a closed fist or tightly curled."
@@ -233,7 +231,7 @@
                             "text": "A good method we have seen in the past is to have the child on the mother's lap, and with one hand hold a piece of paper and the other hold the infant's forearm."
                         },
                         {
-                            "text": "We will be taking a clear still-frame image from this showing the infant's hand and wrist. So please hold your infant's forearm and don't worry if your child is squirmy."
+                            "text": "We will be taking a clear still-frame image from this showing the infant's right hand and wrist. So please hold your infant's forearm and don't worry if your child is squirmy."
                         },
                         {
                             "text": "Please take a look at the example video below."
@@ -263,7 +261,7 @@
             "blocks": [{
                 "title": "Recording of hand",
                 "listblocks": [{
-                        "text": "Here you will record a 10-second clip of the back of your child's hand."
+                        "text": "Here you will record a 10-second clip of the back of your child's <b>right hand</b>."
                     },
                     {
                         "text": "The most important thing is that the fingers need to be out stretched - their hand can't be in a closed fist or tightly curled."
@@ -272,7 +270,7 @@
                         "text": "A good method we have seen in the past is to have the child on the mother's lap, and with one hand hold a piece of paper and the other hold the infant's forearm."
                     },
                     {
-                        "text": "We will be taking a clear still-frame image from this showing the infant's hand and wrist. So please hold your infant's forearm and don't worry if your child is squirmy."
+                        "text": "We will be taking a clear still-frame image from this showing the infant's right hand and wrist. So please hold your infant's forearm and don't worry if your child is squirmy."
                     },
                     {
                         "image": {
@@ -317,10 +315,10 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "If you have completed survey, then you are all done part 1 of our study! \n\n  You and your baby are helping us to better understand how children are connecting sounds in the world to words.TODO: add hypothesis and predictions \n\n Once you have completed the questionnaire, you may then close this window. You will be contacted within the next seven days with your link to Part 2! \n\n  To thank you for your participation, after completing part 2, we will be emailing you a $10 Amazon gift card. If you don't hear from us within a week of completing part 1, feel free to reach out! Each child can only participate once, but if you participate again with another child in the age range, you will receive one gift card per child.",
+                "text": "If you have completed survey, then you are all done part 1 of our study! \n\n  You and your baby are helping us to better understand how children are learning their earliest words! \n\n Once you have completed the questionnaire, you may then close this window. You will be contacted within the next seven days with your link to Part 2! \n\n  To thank you for your participation, we will be emailing you a $10 Amazon gift card upon the completion of both parts of the study. If you don't hear from us within a week of completing Part 1, feel free to reach out to us! Each child can only participate once, but if you participate again with another child that falls within the age range, you will receive one gift card per child.",
                 "title": "Thank you for participating in our study!"
             }, 
-            "additionalVideoPrivacyText": "As outlined in the consent, part 2 of this study will involve your child viewing videos of you paired with another mother and still images of their hand paired with another infant's hand. By consenting to this study you have agreed for us to use the silent video of you and the image of your infants' hand to be shown in part 2 of the study. If you do not wish for your videos/pictures to shown to any other participants in the study then please select the 'Withdrawal of video data' option below. This will withdraw you from the study and your videos will not be viewed by any participants or team members."
+            "additionalVideoPrivacyText": "As outlined in the consent, Part 2 of this study will involve your child viewing videos of you paired with another mother and still-images of their hand paired with another infant's hand. By consenting to this study you have agreed for us to use the silent video of you and the image of your infants' hand to be shown in Part 2 of the study. If you do not wish for your videos/pictures to shown to any other participants in the study then please select the 'Withdrawal of video data' option below. This will withdraw you from the study and your videos will not be viewed by any participants or team members."
         }
         
     },
