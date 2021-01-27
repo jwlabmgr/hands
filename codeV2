@@ -1,0 +1,831 @@
+{
+    "frames": {
+        "study-intro": {
+            "blocks": [{
+                    "emph": true,
+                    "title": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
+                    "text": "During this study, your baby will watch still-frames of the videos you recorded from Part 1, paired with clips of other moms, hands, and feet. There will be a series of audio word labels accompanying these videos while we will record where they chooses to look."
+                },
+                {
+                    "text": "You will have a chance to preview a silent version with closed captioning of the experiment ahead of time. It is important that your child is not present at the moment to see this video, as babies learn very quickly and this short video can alter their behaviour in the actual study. After reading the instructions, you will start the experiment when you and your baby are ready."
+                },
+                {
+                    "text": "The video section will take about 5 to 10 minutes."
+                }
+            ],
+            "showPreviousButton": false,
+            "kind": "exp-lookit-text"
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to contact the Infant Studies Centre at 604-822-6408 or email us at infants@psych.ubc.ca"
+        },
+        "video-consent": {
+            "kind": "exp-lookit-video-consent",
+            "template": "consent_005",
+            "PIName": "Dr. Janet F. Werker",
+            "institution": "University of British Columbia",
+            "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
+            "purpose": "There is evidence that infants understand words even earlier than once thought. Here, we explore 6-month-old infants’ understanding of words that are typically used as a label for multiple items of the same kind (e.g., hand) versus words that are typically used to label individuals (e.g., Mommy).",
+            "procedures": "This is Part 2 of a two-part study; we have created a unique study for your baby to see today, which includes the brief video clips you recorded in Part 1. First, you will provide verbal consent to participate by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!).  Then, the study will proceed for your baby to observe, which involves seeing different ‘Mommies’, a dog, baby hands, and adult feet. Your baby will hear your voice labelling the images. We are interested in your baby’s looking behaviour to the screen in response to what they hear. It’s okay if your baby sometimes looks away from the screen, there is no need to redirect their attention. To thank you for participating today, within a week, we will e-mail you a $10 e-gift card to Amazon. If you complete the study today, we would like to follow-up with you when your baby is older (at 18 and 24 months) to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the “Wordbank” platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+            "risk_statement":"There are no known risks to participating in studies like ours where your child is accompanied by you. The procedure used in this study has been shown to be safe.",
+            "payment": "While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website <a href='https://infantstudies.psych.ubc.ca/' target='_blank'>https://infantstudies.psych.ubc.ca/</a>. To thank you for your time, upon completion of both parts of the study, we will send a $10 e-gift card to Amazon to the e-mail address you provide.",
+            
+            "include_databrary": false,
+            
+            
+
+            "gdpr": false,
+            "research_rights_statement": "If you have any concerns or complaints about your rights as a research participant and/or your experiences while participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research Ethics at 604-822-8598 or if long distance e-mail RSIL@ors.ubc.ca or call toll free 1-877-822-8598 (Ethics file no. H20-03036).",
+        
+            "additional_segments": [
+                {
+                    "text": "Lookit is a U.S. organization and all information gathered from the website is stored on servers based in the U.S. Therefore, your video recordings are subject to U.S. laws, such as the US Patriot Act. This act allows authorities access to the records of internet service providers. If you choose to participate in this study, you understand that your video recording will be stored and accessed in the USA. The security and privacy policy for Lookit can be found at the following link: <a href='https://lookit.mit.edu/privacy/' target='_blank'>https://lookit.mit.edu/privacy/</a>.",
+                    "title": "US Patriot Act Disclosure"
+                },
+                {
+                    "text": "If, upon review of your stored video, a researcher were to observe or hear of an incident involving abuse and/or neglect of a child, please be advised that the researcher must, by law, report this information to the appropriate authorities.",
+                    "title": "Child Protection Disclosure"
+                },
+                {
+                    "text": "To comply with guidelines from research funders and journal publications, electronic research data in data sheets from this study may be shared publicly. The shared data sheets will not contain information that can be used to identify you or your child. Once this dataset is made publicly available, you will not be able to withdraw your consent to sharing the data.",
+                    "title": "Data sharing"
+                }
+            ]
+            
+            
+        },
+        "eligibility-survey": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Study survey",
+                    "properties": {
+                        "coldFlu": {
+                            "enum": [
+                                "Yes",
+                                "No"
+                            ],
+                            "type": "string",
+                            "title": "Does your child have a cold/flu today? If you are unsure, please select no.",
+                            "required": true
+                        },
+                        "errInf": {
+                            "enum": [
+                                "Yes",
+                                "No"
+                            ],
+                            "type": "string",
+                            "title": "Does your child have an ear infection today? If you are unsure, please select no.",
+                            "required": true
+                        },
+                        
+                        "pain": {
+                            "enum": [
+                                "Yes",
+                                "No"
+                            ],
+                            "type": "string",
+                            "title": "Does your child have any pain or pressure in their ears today? If you are unsure, please select no.",
+                            "required": true
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "coldFlu": {
+                            "type": "radio",
+                            "message": "Please answer this question to the best of your ability. If you are unsure about a question, please select no.",
+                            "validator": "required-field"
+                        },
+                        "errInf": {
+                            "type": "radio",
+                            "message": "Please answer this question to the best of your ability. If you are unsure about a question, please select no.",
+                            "validator": "required-field"
+                        },
+                        "pain": {
+                            "type": "radio",
+                            "message": "Please answer this question to the best of your ability. If you are unsure about a question, please select no.",
+                            "validator": "required-field"
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Continue",
+            "showPreviousButton": false
+        },
+        "final-instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [{
+                    "title": "Instructions"
+                },
+                {
+                    "title": "Pausing and stopping",
+                    "listblocks": [{
+                            "text": "In the experiment, your child will see several pairs of images repeatedly. This repetition is built in case there are times where your child looks away from the screen. So don't worry if this happens! Please just try to keep them facing the screen and they can look if they want to. If your child gets fussy or you must attend to something else, you may pause the study by pressing the space bar."
+                        },
+                        {
+                            "emph": true,
+                            "text": "Please only pause the study if your child is fussy, and not if they simply aren't looking."
+                        },
+                        {
+                            "text": "To end the study early, you may press Control-X and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
+                        },
+                        {
+                            "emph": true,
+                            "text": "As a reminder, press 'space bar' to pause the study, and press 'control-X' to end the study early."
+                        }
+                    ]
+                },
+                {
+                    "text": "Please turn the volume up so it's easy to hear but still comfortable.",
+                    "title": "Test your audio",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready? Go!'",
+                        "isVideo": false,
+                        "sources": [{
+                                "src": "https://raw.githubusercontent.com/jwlabmgr/hands/main/mp3/readygo_HO.mp3",
+                                "type": "audio/mp3"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "nextButtonText": "Finalize your webcam settings",
+            "showPreviousButton": false
+        },
+        "video-preview": {
+            "kind": "exp-lookit-stimuli-preview",
+            "stimuli": [{
+                "caption": "During the study, clips of the videos you recorded of yourself and your baby's hand will be paired with other photos. Following this, there will be several trials where infants will hear accompanying audio of word labels. Here's an example with closed captions where the audio would be in the study.",
+                "video": "preview"
+            }],
+            "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+            "videoTypes": [
+                "mp4"
+            ],
+            "blocks": [
+                {
+                    "text": "<strong> Preview the study </sttrong>"
+                },
+                {
+                    "text": "Durng the study, we ask that parents refrain from watching the screen. The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift towards one side or the other and influence your child's attention. We want to make sure we're measuring your child's preferences, not yours!"
+                },
+                {
+                    "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them. The example video is silent so that your child cannot accidently hear the sounds but we have provided closed captions for you."
+                }, 
+                {
+                    "text": "If you wish the skip the preview, please press the skip button below."
+                }
+            ],
+            "skipButtonText": "Skip the preview",
+            "previewButtonText": "Preview a video (my child can't see the screen)",
+            "showPreviousButton": false
+        },
+        "video-quality": {
+            "kind": "exp-video-config-quality",
+            "title": "Final webcam setup",
+            "introText": "We'll be analyzing where your child chooses to look during the videos -- but only if we can tell where that is! Please check each of the following to ensure we're able to use your video",
+            "showRecordMenu": true,
+            "requireTestVideo": true,
+            "completedItemText": "Did it!",
+            "instructionBlocks": [
+                {
+                    "text": "<strong>Make sure the webcam you're using is roughly centered</strong> relative to this monitor. This makes it much easier for us to tell whether your child is looking to the left or right!",
+                    "image": {
+                        "alt": "Example images of using centered external webcam on monitor or built-in webcam on laptop.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                    }
+                },
+                {
+                    "text": "<strong>Turn off any other monitors</strong> connected to your computer, besides the one with the centered webcam. (If there's just one monitor, you're all set!)",
+                    "image": {
+                        "alt": "Example images showing laptop screen turned off if using external monitor and webcam, or external monitor turned off if using built-in webcam and laptop screen.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/monitors.png"
+                    }
+                }, 
+                {
+                    "text": "During the videos, we'll ask that you hold your child over your shoulder like this, so that you're facing away from the screen. Take a look at your webcam view above. Get comfy, and adjust your own position or the computer as needed so both you and your child are visible.",
+                    "image": {
+                        "alt": "Father holding child looking over his shoulder",
+                        "src": "https://www.mit.edu/~kimscott/intermodal/img/over_shoulder.jpg"
+                    }
+                }
+            ],
+            "requireItemConfirmation": true,
+            "recordingInstructionText": "You should be able to see your camera view above. Please create and view a short recording to see how your setup looks. Please ensure you can see your child's eyes in the video. \n\n Once you are ready to begin the study, please click the next button. You will have a moment to turn around and get into position before the first trial begins."
+        },
+        "procIntro":{
+            "kind": "group",
+            "frameList": [
+                {
+                    "video":{
+                        "source": "begin8mins",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "doRecording": false,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "top": 40,
+                        "left": 45,
+                        "width": 10,
+                        "source": "attentiongrabber_chimes"
+                    },
+                    "doRecording": false,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "position": "fill",
+                        "source": "CalibrationDuck"
+                    },
+                    "doRecording": true,
+                    "requireVideoCount": 1,
+                    "requireAudioCount": 0
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "top": 40,
+                        "left": 45,
+                        "width": 10,
+                        "source": "attentiongrabber_chimes"
+                    },
+                    "doRecording": false,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "top": 15,
+                        "left": 20,
+                        "width": 60,
+                        "source": "starfish"
+                    },
+                    "doRecording": true,
+                    "requireVideoCount": 1,
+                    "requireAudioCount": 0,
+                    "backgroundColor": "black"
+                },
+                {
+                    "video": {
+                        "loop": false,
+                        "top": 40,
+                        "left": 45,
+                        "width": 10,
+                        "source": "attentiongrabber_chimes"
+                    },
+                    "doRecording": false,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                }
+                ],
+                "commonFrameProperties": {
+                        "kind": "exp-lookit-video",
+                        "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "videoTypes": [
+                            "mp4"
+                        ],
+                        "backgroundColor": "black",
+                        "autoProceed": true,
+                        "pauseKey": " ",
+                        "pauseKeyDescription": "space",
+                        "restartAfterPause": false,
+                        "pauseAudio": "pause",
+                        "pauseVideo": "attentiongrabber_orig",
+                        "pauseText": "(You'll have a moment to turn around again.)",
+                        "unpauseAudio": "return_after_pause", 
+                        "waitForRecordingMessageColor": "black"
+                    }
+        },
+        "attn":{
+            "kind": "group",
+            "frameList": [
+                {
+                    "video": {
+                        "loop": false,
+                        "top": 40,
+                        "left": 45,
+                        "width": 10,
+                        "source": "attentiongrabber_chimes"
+                    },
+                    "doRecording": false,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                }
+                ],
+                "commonFrameProperties": {
+                        "kind": "exp-lookit-video",
+                        "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "videoTypes": [
+                            "mp4"
+                        ],
+                        "backgroundColor": "black",
+                        "autoProceed": true,
+                        "pauseKey": " ",
+                        "pauseKeyDescription": "space",
+                        "restartAfterPause": false,
+                        "pauseAudio": "pause",
+                        "pauseVideo": "attentiongrabber_orig",
+                        "pauseText": "(You'll have a moment to turn around again.)",
+                        "unpauseAudio": "return_after_pause", 
+                        "waitForRecordingMessageColor": "black"
+                    }
+        },
+        "baseImg1":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "look",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/face1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "baseImg2":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "see",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/dog.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "baseImg3":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "look",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/face1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "baseImg4":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "see",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/dog.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "testImg1":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "mom1",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/face1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "testImg2":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "mom1",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/dog.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "testImg3":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "mom1",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/face1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "testImg4":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "mom1",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/dog.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "baseImg5":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "look",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/hand1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "baseImg6":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "look",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/foot1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "baseImg7":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "see",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/foot1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "baseImg8":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "see",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/hand1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "testImg5":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "hand",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/hand1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "testImg6":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "hand",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/foot1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "testImg7":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "hand",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/foot1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "testImg8":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "hand",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/hand1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "pauseVideo": "attentiongrabber_orig"
+        },
+        "procEnd":{
+            "kind": "group",
+            "frameList": [
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 15,
+                                "left": 20,
+                                "width": 60,
+                                "source": "starfish"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongetter_end"
+                            },
+                            "audio": {
+                                "loop": false,
+                                "source": "all_done"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 1,
+                            "requireVideoCount": 0
+                        }
+                ],
+                "commonFrameProperties": {
+                        "kind": "exp-lookit-video",
+                        "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "videoTypes": [
+                            "mp4"
+                        ],
+                        "backgroundColor": "black",
+                        "autoProceed": true,
+                        "pauseKey": " ",
+                        "pauseKeyDescription": "space",
+                        "restartAfterPause": false,
+                        "pauseAudio": "pause",
+                        "pauseVideo": "attentiongrabber_orig",
+                        "pauseText": "(You'll have a moment to turn around again.)",
+                        "unpauseAudio": "return_after_pause", 
+                        "waitForRecordingMessageColor": "black"
+                    }
+        },
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                
+                    "text": "If you have completed survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are learning their earliest words! Recent research suggests that by 6-months, babies know a lot about words, including an understand of the meanings behind common words in their environment! In this study, we examined 6-month-olds' understanding of labels for individuals (like \"Mommy\") and labels for categories (like \"hand\"). Your participation in this study will help us understand whether there may be differences to how babies percieve word labels from different categories and whether hearing multiple languages influences their rate of learning.  \n\n We really appreciate your help with this investigation!\n\n  To thank you for your participation, we will be emailing you a $10 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out to us! Each child can only participate once, but if you participate again with another child that falls within the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their langauge development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+                    "title": "Thank you for participating in our study!"
+            },
+            "additionalVideoPrivacyText": "As outlined in the consent, part 2 of this study will involve your child viewing videos of you paired with another mother and still images of their hand paired with another infant's hand. By consenting to this study you have agreed for us to use the silent video of you and the image of your infants' hand to be shown in part 2 of the study. If you do not wish for your videos/pictures to shown to any other participants in the study then please select the 'Withdrawal of video data' option below. This will withdraw you from the study and your videos will not be viewed by any participants or team members."
+            }
+       
+    },
+        "sequence": [
+            
+
+            "video-quality",
+           
+            "baseImg1",
+            "attn",
+            "baseImg2",
+            "attn",
+            "baseImg3",
+            "attn",
+            "baseImg4",
+            "attn",
+            "testImg1",
+            "attn",
+            "testImg2",
+            "attn",
+            "testImg3",
+            "attn",
+            "testImg4",
+            "attn",
+            "baseImg5",
+            "attn",
+            "baseImg6",
+            "attn",
+            "baseImg7",
+            "attn",
+            "baseImg8",
+            "attn",
+            "testImg5",
+            "attn",
+            "testImg6",
+            "attn",
+            "testImg7",
+            "attn",
+            "testImg8",
+            "procEnd",
+            "exit-survey",
+            
+            "study-intro",
+            "video-config",
+            "video-consent",
+            "eligibility-survey",
+            "final-instructions",
+            "video-preview",
+            
+            
+             "procIntro"
+            
+            
+        ]
+    }
