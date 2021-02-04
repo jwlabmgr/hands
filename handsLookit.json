@@ -78,10 +78,10 @@
             "stimuli": [
                 {
                     "caption": "Part 2 of the study has two blocks, one were we assess your child's understanding of the label for their mom and one where we assess their understanding of the word \"Hand\". In the \"mom\" block, your child will see a video of you paired with either a dog or another woman while hearing the label for you. In the \"hand\" block, your child will view their own hand paired with another infant's hand or with a foot while hearing the word \"hand\". These two blocks will appear in random order. Here's an example.",
-                    "video": "attentiongrabber"
+                    "video": "Preview"
                 }
             ],
-            "baseDir": "https://www.mit.edu/~kimscott/intermodal/",
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
             "videoTypes": [
                 "webm",
                 "mp4"
@@ -127,7 +127,7 @@
                     "properties": {
                         "email": {
                             "type": "string",
-                            "title": "At the end of the study, we have a detailed quesitonnaire which is linked to Lookit through your email. We will also use this email to invite you to the second part of the study. Please enter your email address here: ",
+                            "title": "At the end of the study, we have a detailed language background quesitonnaire which is linked to Lookit through your email that you must complete. We will also use this email to invite you to the second part of the study. Please enter your email address here: ",
                             "required": true
                         }
                     }
@@ -296,7 +296,7 @@
                     "title": "For this final portion, your child does not need to be with you!"
                 },
                 {
-                    "text": "The last part of this study is a questionnaire which will ask you about your child's language and music environment.Please click the link below to complete the questionniare and then return to Lookit."
+                    "text": "The last portion of this study is a questionnaire which will ask you about your child's language environment. <b>The completion of this questionnaire is necessary before we can send you Part 2 of the study!</b> Please click the link below to complete the questionniare and then return to Lookit."
                 },
                 {
                     "text": "(<a href='https://ubc.ca1.qualtrics.com/jfe/form/SV_diKejzV1Ya0KtvL/' target='_blank'>Language and Background Questionniare</a>.)"
@@ -315,7 +315,7 @@
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "If you have completed survey, then you are all done part 1 of our study! \n\n  You and your baby are helping us to better understand how children are learning their earliest words! \n\n Once you have completed the questionnaire, you may then close this window. You will be contacted within the next seven days with your link to Part 2! \n\n  To thank you for your participation, we will be emailing you a $10 Amazon gift card upon the completion of both parts of the study. If you don't hear from us within a week of completing Part 1, feel free to reach out to us! Each child can only participate once, but if you participate again with another child that falls within the age range, you will receive one gift card per child.",
+                "text": "If you have completed the language questionnaire, then you are all done part 1 of our study! \n\n  You and your baby are helping us to better understand how children are learning their earliest words! \n\n Once you have completed the questionnaire, you may then close this window. You will be contacted within the next seven days with your link to Part 2! \n\n  To thank you for your participation, we will be emailing you a $10 Amazon gift card upon the completion of both parts of the study. If you don't hear from us within a week of completing Part 1, feel free to reach out to us! Each child can only participate once, but if you participate again with another child that falls within the age range, you will receive one gift card per child.",
                 "title": "Thank you for participating in our study!"
             }, 
             "additionalVideoPrivacyText": "As outlined in the consent, Part 2 of this study will involve your child viewing videos of you paired with another mother and still-images of their hand paired with another infant's hand. By consenting to this study you have agreed for us to use the silent video of you and the image of your infants' hand to be shown in Part 2 of the study. If you do not wish for your videos/pictures to shown to any other participants in the study then please select the 'Withdrawal of video data' option below. This will withdraw you from the study and your videos will not be viewed by any participants or team members."
