@@ -27,7 +27,7 @@
             "institution": "University of British Columbia",
             "PIContact": "Dr. Janet F. Werker at jwerker@psych.ubc.ca",
             "purpose": "There is evidence that infants understand words even earlier than once thought. Here, we explore 6-month-old infants’ understanding of words that are typically used as a label for multiple items of the same kind (e.g., hand) versus words that are typically used to label individuals (e.g., Mommy).",
-            "procedures": "This is Part 2 of a two-part study; we have created a unique study for your baby to see today, which includes the brief video clips you recorded in Part 1. First, you will provide verbal consent to participate by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!).  Then, the study will proceed for your baby to observe, which involves seeing different ‘Mommies’, a dog, baby hands, and adult feet. Your baby will hear your voice labelling the images. We are interested in your baby’s looking behaviour to the screen in response to what they hear. It’s okay if your baby sometimes looks away from the screen, there is no need to redirect their attention. To thank you for participating today, within a week, we will e-mail you a $10 e-gift card to Amazon. If you complete the study today, we would like to follow-up with you when your baby is older (at 18 and 24 months) to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the “Wordbank” platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+            "procedures": "This is Part 2 of a two-part study; we have created a unique study for your baby to see today, which includes the brief video clips you recorded in Part 1. First, you will provide verbal consent to participate by recording a video following steps 2 through 4 on the right side of this page (please make sure you read the entire consent form before doing so!).  Then, the study will proceed for your baby to observe, which involves seeing different ‘Mommies’, a dog, baby hands, and adult feet. Your baby will hear your voice labelling the images. We are interested in your baby’s looking behaviour to the screen in response to what they hear. It’s okay if your baby sometimes looks away from the screen, there is no need to redirect their attention. To thank you for participating today, within a week, we will e-mail you a $10 e-gift card to Amazon. If you complete the study today, we would like to follow-up with you when your baby is older (at 18 and 24 months) to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the “Wordbank” platform by Stanford University. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
             "risk_statement":"There are no known risks to participating in studies like ours where your child is accompanied by you. The procedure used in this study has been shown to be safe.",
             "payment": "While there are no direct benefits, many families enjoy participating in these activities. After we complete the study, you will be able to access any resulting publications on our website and see what you and your child helped us find out about speech and language development. Our annual newsletter can also be found on our website <a href='https://infantstudies.psych.ubc.ca/' target='_blank'>https://infantstudies.psych.ubc.ca/</a>. To thank you for your time, upon completion of both parts of the study, we will send a $10 e-gift card to Amazon to the e-mail address you provide.",
             
@@ -154,16 +154,28 @@
                     }
                 }
             ],
-            "nextButtonText": "Finalize your webcam settings",
+            "nextButtonText": "Next",
             "showPreviousButton": false
         },
         "video-preview": {
             "kind": "exp-lookit-stimuli-preview",
             "stimuli": [{
-                "caption": "During the study, clips of the videos you recorded of yourself and your baby's hand will be paired with other photos. Following this, there will be several trials where infants will hear accompanying audio of word labels. Here's an example with closed captions where the audio would be in the study.",
-                "video": "preview"
-            }],
-            "baseDir": "https://raw.githubusercontent.com/Jenncscampbell/MusicPriming/master/",
+                "caption": "During the study, clips of the videos you recorded of yourself and your baby's hand will be paired with other photos. Following this, there will be several trials where infants will hear accompanying audio of word labels. Here's an example with closed captions where the audio would be in the study. The example video is a standard version, your personalized version will include the images below.",
+                "video": "Preview",
+                "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/02/Preview.mp4"
+            }, 
+            {
+                "caption": "Here is of one of the personalized frames featuring your child's mother that your child will see during the study.",
+                "image": "moms1.png",
+                "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/02/"
+            }, 
+            {
+                "caption": "Here is of one of the personalized frames featuring your child's hand that your child will see during the study.",
+                "image": "hands1.png",
+                "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/02/"
+            }
+            ],
+            
             "videoTypes": [
                 "mp4"
             ],
@@ -177,6 +189,9 @@
                 {
                     "text": "If you'd like to see an example of a video your child will be shown, you can take a look ahead of time now. It's important that you watch the video without your child, so that the videos will still be new to them. The example video is silent so that your child cannot accidently hear the sounds but we have provided closed captions for you."
                 }, 
+                {
+                    
+                },
                 {
                     "text": "If you wish the skip the preview, please press the skip button below."
                 }
@@ -223,7 +238,7 @@
             "frameList": [
                 {
                     "video":{
-                        "source": "begin",
+                        "source": "begin8mins",
                         "position": "fill",
                         "loop": false
                     },
@@ -304,7 +319,45 @@
                         "autoProceed": true,
                         "pauseKey": " ",
                         "pauseKeyDescription": "space",
-                        "restartAfterPause": false,
+                        "restartAfterPause": true,
+                        "pauseAudio": "pause",
+                        "pauseVideo": "attentiongrabber_orig",
+                        "pauseText": "(You'll have a moment to turn around again.)",
+                        "unpauseAudio": "return_after_pause", 
+                        "waitForRecordingMessageColor": "black",
+                        "frameOffsetAfterPause": 0
+                    }
+        },
+        "attn":{
+            "kind": "group",
+            "frameList": [
+                {
+                    "video": {
+                        "loop": false,
+                        "top": 40,
+                        "left": 45,
+                        "width": 10,
+                        "source": "attentiongrabber_chimes"
+                    },
+                    "doRecording": false,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                }
+                ],
+                "commonFrameProperties": {
+                        "kind": "exp-lookit-video",
+                        "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "videoTypes": [
+                            "mp4"
+                        ],
+                        "backgroundColor": "black",
+                        "autoProceed": true,
+                        "pauseKey": " ",
+                        "pauseKeyDescription": "space",
+                        "restartAfterPause": true,
                         "pauseAudio": "pause",
                         "pauseVideo": "attentiongrabber_orig",
                         "pauseText": "(You'll have a moment to turn around again.)",
@@ -314,14 +367,14 @@
         },
         "baseImg1":{
             "kind": "exp-lookit-images-audio",
-            "audio": "mommy",
+            "audio": "look",
             "images": [
                 {
-                    "src": "mom1.png",
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
                     "position": "left"
                 },
                 {
-                    "src": "face1.png",
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/face1.png",
                     "position": "right"
                 }
             ],
@@ -332,18 +385,25 @@
             "autoProceed": true,
             "doRecording": true, 
             "durationSeconds": 10,
-            "pauseVideo": "attentiongrabber_orig"
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "backgroundColor": "black",
+            "pageColor": "black",
+            "waitForRecordingMessageColor": "black"
         },
         "baseImg2":{
             "kind": "exp-lookit-images-audio",
-            "audio": "mommy",
+            "audio": "see",
             "images": [
                 {
-                    "src": "mom1.png",
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
                     "position": "left"
                 },
                 {
-                    "src": "dog.png",
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/dog.png",
                     "position": "right"
                 }
             ],
@@ -354,18 +414,25 @@
             "autoProceed": true,
             "doRecording": true, 
             "durationSeconds": 10,
-            "pauseVideo": "attentiongrabber_orig"
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
         },
         "baseImg3":{
             "kind": "exp-lookit-images-audio",
-            "audio": "hand",
+            "audio": "look",
             "images": [
                 {
-                    "src": "hand1.png",
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/face1.png",
                     "position": "left"
                 },
                 {
-                    "src": "child1.png",
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
                     "position": "right"
                 }
             ],
@@ -376,18 +443,286 @@
             "autoProceed": true,
             "doRecording": true, 
             "durationSeconds": 10,
-            "pauseVideo": "attentiongrabber_orig"
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
         },
         "baseImg4":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "see",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/dog.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "testImg1":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "mom1",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/face1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "testImg2":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "mom1",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/dog.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "testImg3":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "mom1",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/face1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "testImg4":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "mom1",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/mom1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/dog.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "baseImg5":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "look",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/hand1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "baseImg6":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "look",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/foot1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "baseImg7":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "see",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/foot1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "baseImg8":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "see",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/hand1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "testImg5":{
             "kind": "exp-lookit-images-audio",
             "audio": "hand",
             "images": [
                 {
-                    "src": "child1.png",
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/hand1.png",
                     "position": "left"
                 },
                 {
-                    "src": "foot1.png",
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
                     "position": "right"
                 }
             ],
@@ -398,40 +733,224 @@
             "autoProceed": true,
             "doRecording": true, 
             "durationSeconds": 10,
-            "pauseVideo": "attentiongrabber_orig"
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
         },
-        
+        "testImg6":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "hand",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/foot1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "testImg7":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "hand",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/foot1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "testImg8":{
+            "kind": "exp-lookit-images-audio",
+            "audio": "hand",
+            "images": [
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/child1.png",
+                    "position": "left"
+                },
+                {
+                    "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/01/hand1.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+            "audioTypes": [
+                    "mp3"
+                ],
+            "autoProceed": true,
+            "doRecording": true, 
+            "durationSeconds": 10,
+            "restartAfterPause": true,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber_orig",
+            "pauseText": "(You'll have a moment to turn around again.)",
+            "unpauseAudio": "return_after_pause",
+            "pageColor": "black",
+            "backgroundColor": "black",
+            "waitForRecordingMessageColor": "black"
+        },
+        "procEnd":{
+            "kind": "group",
+            "frameList": [
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongrabber_chimes"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 15,
+                                "left": 20,
+                                "width": 60,
+                                "source": "starfish"
+                            },
+                            "doRecording": true,
+                            "requireVideoCount": 1,
+                            "requireAudioCount": 0
+                        },
+                        {
+                            "video": {
+                                "loop": false,
+                                "top": 40,
+                                "left": 45,
+                                "width": 10,
+                                "source": "attentiongetter_end"
+                            },
+                            "audio": {
+                                "loop": false,
+                                "source": "all_done"
+                            },
+                            "doRecording": false,
+                            "requireAudioCount": 1,
+                            "requireVideoCount": 0
+                        }
+                ],
+                "commonFrameProperties": {
+                        "kind": "exp-lookit-video",
+                        "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "videoTypes": [
+                            "mp4"
+                        ],
+                        "backgroundColor": "black",
+                        "autoProceed": true,
+                        "pauseKey": " ",
+                        "pauseKeyDescription": "space",
+                        "restartAfterPause": true,
+                        "pauseAudio": "pause",
+                        "pauseVideo": "attentiongrabber_orig",
+                        "pauseText": "(You'll have a moment to turn around again.)",
+                        "unpauseAudio": "return_after_pause", 
+                        "waitForRecordingMessageColor": "black"
+                    }
+        },
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
                 
-                    "text": "If you have completed survey, then you are all done the study! \n\n You and your baby are helping us to better understand how infants are learning their earliest words! Recent research suggests that by 6-months, babies know a lot about words, including an understand of the meanings behind common words in their environment! In this study, we examined 6-month-olds' understanding of labels for individuals (like \"Mommy\") and labels for categories (like \"hand\"). Your participation in this study will help us understand whether there may be differences to how babies percieve word labels from different categories and whether hearing multiple languages influences their rate of learning.  \n\n We really appreciate your help with this investigation!\n\n  To thank you for your participation, we will be emailing you a $10 USD Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out to us! Each child can only participate once, but if you participate again with another child that falls within the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their langauge development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by MIT. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
+                    "text": "\n You and your baby are helping us to better understand how infants are learning their earliest words! Recent research suggests that by 6-months, babies know a lot about words, including an understanding of the meanings behind common words in their environment! In this study, we examined 6-month-olds' understanding of labels for individuals (like \"Mommy\") and labels for categories (like \"hand\"). We are particularly interested in whether children can successfully restrict a label like \"Mommy\" to only their own mother but generalize words like \"hand\" to multiple exemplars. If babies are able to understand labels for individuals, such as \"mommy\", then they should look longer at the image of their mother when she is named regardless of whether her image is paired with another woman or a dog. Similarly, if babies are able to understand more general categories, such as \"hand\", then they should look equally to their own hand and another hand in response to the word \"hand\". Your participation in this study will help us understand whether there may be differences to how babies perceive word labels from different categories and whether hearing multiple languages influences their rate of learning.s  \n\n We really appreciate your help with this investigation!\n\n  To thank you for your participation, we will be emailing you a $10 Amazon gift card  - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out to us! Each child can only participate once, but if you participate again with another child that falls within the age range, you will receive one gift card per child. \n\n This study has an optional questionnaire follow up when your child is 18 and 24 months old to check-in about their language development. These follow-ups would involve filling out an online questionnaire hosted on the Wordbank platform by Stanford University. You are not obligated to participate in these follow-ups and may opt-out at any time; we will e-mail you to ask regarding each instance.",
                     "title": "Thank you for participating in our study!"
-            },
-            "additionalVideoPrivacyText": "As outlined in the consent, part 2 of this study will involve your child viewing videos of you paired with another mother and still images of their hand paired with another infant's hand. By consenting to this study you have agreed for us to use the silent video of you and the image of your infants' hand to be shown in part 2 of the study. If you do not wish for your videos/pictures to shown to any other participants in the study then please select the 'Withdrawal of video data' option below. This will withdraw you from the study and your videos will not be viewed by any participants or team members."
             }
+        }
        
     },
-        "sequence": [
-            
+    "sequence": [
             "study-intro",
             "video-config",
             "video-consent",
             "eligibility-survey",
             "final-instructions",
-            
             "video-preview",
-            
             "video-quality",
             "procIntro",
+
+
+           
             "baseImg1",
+            "attn",
             "baseImg2",
+            "attn",
             "baseImg3",
+            "attn",
             "baseImg4",
+            "attn",
+            "testImg1",
+            "attn",
+            "testImg2",
+            "attn",
+            "testImg3",
+            "attn",
+            "testImg4",
+            "attn",
+            "baseImg5",
+            "attn",
+            "baseImg6",
+            "attn",
+            "baseImg7",
+            "attn",
+            "baseImg8",
+            "attn",
+            "testImg5",
+            "attn",
+            "testImg6",
+            "attn",
+            "testImg7",
+            "attn",
+            "testImg8",
+            "procEnd",
             "exit-survey"
             
-            
-            
+
             
         ]
     }
