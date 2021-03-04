@@ -159,8 +159,10 @@
         },
         "video-preview": {
             "kind": "exp-lookit-stimuli-preview",
-            "baseDir": "https://infantstudies-psych.sites.olt.ubc.ca/files/",
-            
+            "videoTypes": [
+                "mp4"
+            ],
+            "baseDir": "https://raw.githubusercontent.com/jwlabmgr/hands/main/",
             "blocks": [
                 {
                     "text": "<strong> Preview the study </sttrong>"
@@ -182,24 +184,21 @@
             "previewButtonText": "Preview a video (my child can't see the screen)",
             "showPreviousButton": false,
             
-            "videoTypes": [
-                "mp4"
-            ],
+            
             "stimuli": [{
                 "caption": "During the study, clips of the videos you recorded of yourself and your baby's hand will be paired with other photos. Following this, there will be several trials where infants will hear accompanying audio of word labels. Here's an example with closed captions where the audio would be in the study. The example video is a standard version, your personalized version will include the images below.",
-                "video": "2021/02/Preview"
+                "video": "Preview"
             }, 
             {
                 "caption": "Here is of one of the personalized frames featuring your child's mother that your child will see during the study.",
-                "image":"2021/02/moms1.png",
-                "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/02/moms1.png"
+                "image":"https://infantstudies-psych.sites.olt.ubc.ca/files/2021/02/moms1.png"
                 
             }, 
             {
                 "caption": "Here is of one of the personalized frames featuring your child's hand that your child will see during the study.",
-                "image":"2021/03/hands.png",
-                "src": "https://infantstudies-psych.sites.olt.ubc.ca/files/2021/03/hands1.png"
+                "image":"https://infantstudies-psych.sites.olt.ubc.ca/files/2021/03/hands1.png"
             }
+            
             ]
         },
         "video-quality": {
@@ -907,7 +906,7 @@
        
     },
     "sequence": [
-            "video-preview",
+           
         
         
             "study-intro",
@@ -915,7 +914,7 @@
             "video-consent",
             "eligibility-survey",
             "final-instructions",
-            
+            "video-preview",
             "video-quality",
             "procIntro",
 
